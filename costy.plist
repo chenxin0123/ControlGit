@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>NEW_BUILD</key>
-	<integer>6</integer>
+	<integer>1</integer>
 	<key>NEW_VERSION</key>
-	<string>1.3.1</string>
+	<string>1.0.21</string>
 	<key>OLD_BUILD</key>
-	<string>4</string>
+	<string>1</string>
 	<key>OLD_VERSION</key>
-	<string>1.3.1</string>
+	<string>1.0.21</string>
 </dict>
 </plist>
