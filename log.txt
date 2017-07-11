@@ -1,0 +1,1 @@
+[?1049h[1;54r(B[m[4l[?7h[H[2JEvery 6.0s: sh ArchiveMonitor.sh nhvqdvfboabobgia[1;172HppdeMac-Pro.local: Tue Jul 11 20:44:25 2017[3;1HORIGIN_PATH = /Volumes/G-Drive/ControlGit[4dPULL GIT[5dAlready up-to-date.[6dOLD_VERSION = 1.0.21 OLD_BUILD = 6 NEW_VERSION = 1.0.21 NEW_BUILD = 6[7dCOMPARE[8dNo need to build[54;214H[1;208H34[54;214H[1;208H43[54;214H
