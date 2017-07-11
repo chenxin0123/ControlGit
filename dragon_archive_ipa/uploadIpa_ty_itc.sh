@@ -8,6 +8,4 @@ fastlane deliver --ipa "./archive_ty_upload_itc/cos_tiyan_appStore.ipa" -u "2990
 rm -rf ./archive_ty_upload_itc
 
 # Send Email
-echo 'Sending email'
-python SendEmail.py "Finish upload costy $NEW_VERSION(build$NEW_BUILD) to appStore" ./archive_ty_upload_fir/fir-cos_tiyan.png
-echo 'Email sent'
+# python SendEmail.py "Finish upload costy $NEW_VERSION(build$NEW_BUILD) to appStore" ./archive_ty_upload_fir/fir-cos_tiyan.png

@@ -9,6 +9,4 @@ fir me
 fir publish -Q ./archive_ty_upload_fir/cos_tiyan_adHoc.ipa --verboses
 
 # Send Email
-echo 'Sending email'
-python SendEmail.py "Finish upload costy $NEW_VERSION(build$NEW_BUILD) to fir" ./archive_ty_upload_fir/fir-cos_tiyan.png
-echo 'Email sent'
+#python SendEmail.py "Finish upload costy $NEW_VERSION(build$NEW_BUILD) to fir" ./archive_ty_upload_fir/fir-cos_tiyan.png
