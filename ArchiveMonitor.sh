@@ -4,6 +4,7 @@ CONFIG_PATH="$ORIGIN_PATH/costy.plist"
 TARGET_PATH="$ORIGIN_PATH/../cos_ty"
 echo "ORIGIN_PATH = $ORIGIN_PATH"
 # 1. Pull control git
+echo 'PULL GIT'
 git pull
 
 # 2. Read config
@@ -14,6 +15,7 @@ NEW_BUILD=$(/usr/libexec/PlistBuddy -c "print NEW_BUILD" ${CONFIG_PATH})
 echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSION NEW_BUILD = $NEW_BUILD"
 
 # 3. Compare
+echo 'COMPARE'
 DO_BUILD=false
 if [[ $NEW_VERSION > $OLD_VERSION ]];then
 	echo 'version bigger'
@@ -32,11 +34,13 @@ fi
 /usr/libexec/PlistBuddy -c "Set:OLD_BUILD $NEW_BUILD" ${CONFIG_PATH}
 
 # 5. Push control git
+echo 'PUSH GIT'
 git add .
 git commit -m "$NEW_VERSION(build$NEW_BUILD) mark"
 git push -f
 
 # 6. Checkout target git
+echo 'CHECKOUT TARGET GIT'
 cd $TARGET_PATH
 git reset --hard
 git fetch origin
@@ -54,6 +58,7 @@ echo 'config plist'
 /usr/libexec/PlistBuddy -c "Set:CFBundleVersion $NEW_BUILD" "$TARGET_PATH/build/xcode6.0/cos/cosext/InfoTY.plist"
 
 # 8. Archive & Publish
+echo 'ARCHIVE'
 cd $TARGET_PATH/ios_res
 sh archiveIpa_ty.sh skipversionconfig
 
