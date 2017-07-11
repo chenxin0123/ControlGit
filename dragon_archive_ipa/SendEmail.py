@@ -10,7 +10,7 @@ receiver = '407008175@qq.com'
 smtpserver = 'smtp.qq.com'
 
 username = sender
-password = sys.argv[3]
+password = 'nhvqdvfboabobgia'
 
 def send_mail(title, path):
     try:
