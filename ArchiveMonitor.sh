@@ -28,4 +28,4 @@ if [ "$DO_BUILD" = false ];then
 	echo 'No need to build'
 	exit
 fi
-osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh Archive.sh $1" in selected tab of the front window'
+osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh Archive.sh nhvqdvfboabobgia" in selected tab of the front window'
