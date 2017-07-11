@@ -62,11 +62,5 @@ echo 'ARCHIVE'
 cd $TARGET_PATH/ios_res
 sh archiveIpa_ty.sh skipversionconfig
 
-# 9.Send Email
-cd $ORIGIN_PATH
-echo 'Sending email'
-python SendEmail.py "Finish building costy $NEW_VERSION(build$NEW_BUILD)" $TARGET_PATH/ios_res/archive_ty_upload_fir/fir-cos_tiyan.png $1 
-echo 'Email sent'
-
 git commit -m "$NEW_VERSION(build$NEW_BUILD) done"
 git push -f
