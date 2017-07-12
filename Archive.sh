@@ -63,5 +63,9 @@ cd $TARGET_PATH/ios_res
 sh archiveIpa_ty.sh skipversionconfig
 
 cd $ORIGIN_PATH
+<<<<<<< HEAD:Archive.sh
 git commit --amend -m "$NEW_VERSION(build$NEW_BUILD) done"
+=======
+git commit -m "$NEW_VERSION(build$NEW_BUILD) done"
+>>>>>>> fccd9e07150cb5d1680f229b4b0380c455b583e9:Archive.sh
 git push -f

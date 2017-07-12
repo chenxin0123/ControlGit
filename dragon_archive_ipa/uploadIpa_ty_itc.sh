@@ -6,3 +6,9 @@ mkdir ./archive_ty_upload_itc
 cp ../build/xcode6.0/cos/iosArchiveTY/cos_tiyan_appStore.ipa ./archive_ty_upload_itc/cos_tiyan_appStore.ipa
 fastlane deliver --ipa "./archive_ty_upload_itc/cos_tiyan_appStore.ipa" -u "2990699839@qq.com" --skip_screenshots --skip_metadata --skip_app_version_update --verbose
 rm -rf ./archive_ty_upload_itc
+<<<<<<< HEAD
+=======
+
+# Send Email
+# python SendEmail.py "Finish upload costy $NEW_VERSION(build$NEW_BUILD) to appStore" ./archive_ty_upload_fir/fir-cos_tiyan.png
+>>>>>>> fccd9e07150cb5d1680f229b4b0380c455b583e9
