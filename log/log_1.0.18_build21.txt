@@ -35,3 +35,15 @@ Updating 'dep/GCloudVoice':
 At revision 1950.
 Updating 'dep/QASdk':
 At revision 1950.
+Updating 'dep/crasheye':
+At revision 1950.
+Updating 'dep/cssdk':
+At revision 1950.
+Updating 'dep/XfSdk':
+At revision 1950.
+Updating 'dep/ShareSDK':
+At revision 1950.
+Updating 'dep/serverios':
+U    dep/serverios/release/ios/libInstance.a
+U    dep/serverios/version.ini
+U    dep/serverios/Debug/ios/libInstance.a
