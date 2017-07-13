@@ -1,1 +1,1 @@
-watch git pull
+watch -n 10 git pull

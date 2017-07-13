@@ -1,1 +1,1 @@
-watch -n 10 sh Push.sh
+watch -n 30 sh Push.sh
