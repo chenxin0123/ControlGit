@@ -5,3 +5,22 @@ OLD_VERSION = 1.0.20 OLD_BUILD = 12 NEW_VERSION = 1.0.20 NEW_BUILD = 13
 COMPARE
 build bigger
 PUSH GIT
+[master 15547be] 1.0.20(build13) mark
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+ rename log_12.txt => log_13.txt (58%)
+CHECKOUT TARGET GIT
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+Your branch is up-to-date with 'origin/neiwang_newtiyan'.
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+config ini
+ipaver = 1.0.20.0; resver = 1.0.20.1
+config plist
+ARCHIVE
+Updating 'dep/Dolphin':
+Updating 'dep/libcurl':
+At revision 1944.
+Updating 'dep/GeTui':
+At revision 1944.
+Updating 'dep/server':
+At revision 2153.
+Updating 'dep/engine_ref':
