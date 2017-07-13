@@ -1,7 +1,4 @@
-pp               75756 215.2  7.9  4078876 1321068   ??  R     6:49下午   0:16.54 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -exportArchive -archivePath iosArchiveTY/cos_tiyan.xcarchive -exportPath iosArchiveTY -exportOptionsPlist exportOptions_adHoc.plist
-pp               75921   0.1  0.0  2496420    388 s000  S     6:49下午   0:00.00 watch -n 10 sh PrintProcess.sh
-pp               75924   0.1  0.0  2433828    712 s000  R     6:49下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
-pp               68693   0.0  0.0  2437492   1180   ??  S     6:35下午   0:00.00 sh archive_tiyan.sh
+pp               75756 249.7  7.9  4078876 1321336   ??  R     6:49下午   1:04.23 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -exportArchive -archivePath iosArchiveTY/cos_tiyan.xcarchive -exportPath iosArchiveTY -exportOptionsPlist exportOptions_adHoc.plist
 pp               67699   0.0  0.0  2435444   1184   ??  S     6:33下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               67547   0.0  0.0  2438516   1244   ??  S     6:32下午   0:00.01 sh Archive.sh
 pp               61960   0.0  0.0  2488228   2484 s006  S+    6:17下午   0:00.26 watch -n 10 sh PrintArchiveLog.sh
@@ -15,5 +12,8 @@ pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.
 pp               26233   0.0  0.0  2489252   2320   ??  S     4:17下午   0:01.25 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    904   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    336   ??  Ss   一10上午   0:02.99 /usr/libexec/watchdogd
+pp               76052   0.0  0.0  2423384    244 s000  U     6:49下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
 pp               67541   0.0  0.0        0      0   ??  Z     6:32下午   0:00.00 (watch)
-pp               75847   0.0  0.0  2487204    388 s000  S     6:49下午   0:00.00 watch -n 30 sh Push.sh
+pp               76049   0.0  0.0  2496420    400 s000  S     6:49下午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               76019   0.0  0.0  2498468    392 s000  S     6:49下午   0:00.00 watch -n 10 sh Pull.sh
+pp               68693   0.0  0.0  2437492   1180   ??  S     6:35下午   0:00.00 sh archive_tiyan.sh
