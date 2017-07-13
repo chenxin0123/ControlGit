@@ -1,3 +1,4 @@
 git add .
 git commit -m "update"
-git push -f
+git rebase origin/master
+git push
