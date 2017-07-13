@@ -77,3 +77,6 @@ U    dep/engine_refios/version.ini
 U    dep/engine_refios/Debug-iphoneos/libS3Engine.a
 U    dep/engine_refios/Debug-iphoneos/libPresentation.a
 U    dep/engine_refios/Debug-iphoneos/libGLES2Render.a
+U    dep/engine_refios/Debug-iphoneos/libDynaform_action.a
+U    dep/engine_refios/Debug-iphoneos/libogg.a
+U    dep/engine_refios/Debug-iphoneos/libsquish.a
