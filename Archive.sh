@@ -34,10 +34,10 @@ fi
 /usr/libexec/PlistBuddy -c "Set:OLD_BUILD $NEW_BUILD" ${CONFIG_PATH}
 
 # 5. Push control git
-echo 'PUSH GIT'
-git add .
-git commit -m "$NEW_VERSION(build$NEW_BUILD) mark"
-git push -f
+#echo 'PUSH GIT'
+#git add .
+#git commit -m "$NEW_VERSION(build$NEW_BUILD) mark"
+#git push -f
 
 # 6. Checkout target git
 echo 'CHECKOUT TARGET GIT'
