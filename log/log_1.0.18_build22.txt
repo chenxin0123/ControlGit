@@ -16173,3 +16173,73 @@ DEBUG [2017-07-13 18:51:39.51]: [Transporter]: INFO: id = 20170713185139-694
 DEBUG [2017-07-13 18:51:42.96]: [Transporter]: DBG-X: Apple's web service operation return value:
 DEBUG [2017-07-13 18:51:42.96]: [Transporter]: DBG-X:   parameter SigniantLoggingLevel = OFF
 DEBUG [2017-07-13 18:51:42.96]: [Transporter]: DBG-X:   parameter AsperaLoggingLevel = OFF
+DEBUG [2017-07-13 18:51:43.35]: [Transporter]: INFO: Signiant TransferEngine build 10.6.0.59156
+DEBUG [2017-07-13 18:51:43.36]: [Transporter]: INFO: Using Signiant UDP transport
+DEBUG [2017-07-13 18:51:43.37]: [Transporter]: DBG-X: Setting the target rate to 15000001 bytes per second.
+DEBUG [2017-07-13 18:51:43.37]: [Transporter]: DBG-X: Setting the throttle to 12500000 bytes per second.
+DEBUG [2017-07-13 18:51:43.40]: [Transporter]: INFO: Transfer engine: 10.6.0.59156
+DEBUG [2017-07-13 18:51:43.40]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:43.44]: [Transporter]: INFO: The Signiant transfer engine's status is CONNECTING
+DEBUG [2017-07-13 18:51:43.44]: [Transporter]: INFO: Processing URL list: mxwan://sgr603.apple.com:44001/
+DEBUG [2017-07-13 18:51:43.44]: [Transporter]: INFO: Trying UDP sgr603.apple.com/17.110.248.103:44001...
+DEBUG [2017-07-13 18:51:44.82]: [Transporter]: INFO: Connected to UDP sgr603.apple.com/17.110.248.103:44001
+DEBUG [2017-07-13 18:51:45.25]: [Transporter]: INFO: Authenticating
+DEBUG [2017-07-13 18:51:46.60]: [Transporter]: INFO: The Signiant transfer engine's status is AWAITING_DATA_STREAMS
+DEBUG [2017-07-13 18:51:46.60]: [Transporter]: INFO: Setting up data streams
+DEBUG [2017-07-13 18:51:48.87]: [Transporter]: INFO: The Signiant transfer engine's status is CONNECTED
+DEBUG [2017-07-13 18:51:48.87]: [Transporter]: INFO: Connected using WAN accelerator
+DEBUG [2017-07-13 18:51:49.30]: [Transporter]: INFO:      File: f6cb2d36-2339-4c50-9cd1-817b792242954757467564429099249.txt 11/11, 100% completed
+DEBUG [2017-07-13 18:51:49.32]: [Transporter]: DBG-X: The status for the file, f6cb2d36-2339-4c50-9cd1-817b792242954757467564429099249.txt, is TRANSFERRED.
+DEBUG [2017-07-13 18:51:49.99]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:51.06]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:51.20]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:51.20]: [Transporter]: DEBUG: An error has occurred during the upload.
+DEBUG [2017-07-13 18:51:51.27]: [Transporter]: DEBUG: An exception has occurred: Scheduling automatic restart in 1 minute
+DEBUG [2017-07-13 18:51:51.27]: [Transporter]: DEBUG: Transfer warning: Scheduling automatic restart in 1 minute
+DEBUG [2017-07-13 18:51:51.27]: [Transporter]: DEBUG: Received failed transfer notification; aborting
+DEBUG [2017-07-13 18:51:51.27]: [Transporter]: INFO: Scheduling automatic restart in 1 minute
+DEBUG [2017-07-13 18:51:51.47]: [Transporter]: INFO: The Signiant transport is encountering difficulties with the upload. This may be caused by a firewall or network configuration preventing access.
+DEBUG [2017-07-13 18:51:51.47]: [Transporter]: INFO: Signiant TransferEngine build 10.6.0.59156
+DEBUG [2017-07-13 18:51:51.47]: [Transporter]: INFO: Using Signiant UDP transport
+DEBUG [2017-07-13 18:51:51.48]: [Transporter]: DBG-X: Setting the target rate to 15000001 bytes per second.
+DEBUG [2017-07-13 18:51:51.48]: [Transporter]: DBG-X: Setting the throttle to 12500000 bytes per second.
+DEBUG [2017-07-13 18:51:51.48]: [Transporter]: INFO: Transfer engine: 10.6.0.59156
+DEBUG [2017-07-13 18:51:51.48]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:51.53]: [Transporter]: INFO: The Signiant transfer engine's status is CONNECTING
+DEBUG [2017-07-13 18:51:51.53]: [Transporter]: INFO: Processing URL list: mxwan://sgr203.apple.com:44001/
+DEBUG [2017-07-13 18:51:51.53]: [Transporter]: INFO: Trying UDP sgr203.apple.com/17.152.249.103:44001...
+DEBUG [2017-07-13 18:51:52.73]: [Transporter]: INFO: Connected to UDP sgr203.apple.com/17.152.249.103:44001
+DEBUG [2017-07-13 18:51:53.12]: [Transporter]: INFO: Authenticating
+DEBUG [2017-07-13 18:51:54.36]: [Transporter]: INFO: The Signiant transfer engine's status is AWAITING_DATA_STREAMS
+DEBUG [2017-07-13 18:51:54.36]: [Transporter]: INFO: Setting up data streams
+DEBUG [2017-07-13 18:51:56.74]: [Transporter]: INFO: The Signiant transfer engine's status is CONNECTED
+DEBUG [2017-07-13 18:51:56.74]: [Transporter]: INFO: Connected using WAN accelerator
+DEBUG [2017-07-13 18:51:57.17]: [Transporter]: INFO:      File: 249526a0-b3c4-4be7-ad83-a8fdf869a6378473575512255688848.txt 11/11, 100% completed
+DEBUG [2017-07-13 18:51:57.19]: [Transporter]: DBG-X: The status for the file, 249526a0-b3c4-4be7-ad83-a8fdf869a6378473575512255688848.txt, is TRANSFERRED.
+DEBUG [2017-07-13 18:51:57.87]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:57.93]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DEBUG: Using token file path /Users/pp/.itmstransporter/UploadTokens/ppdeMac-Pro.local_7677KJ265D_1195876631.itmsp.token
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DEBUG: Attempting exclusive file lock on token file
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DEBUG: Set token: 31c2acba-025c-47c6-9c36-2aefcfb19528/1499943082782
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X: Memory: [JVM] 946M free, 982M total, 982M max [System] (Physical) 354M free, 16384M total (Swap) 1219M free, 4096M total
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X: Deflated 453 bytes to 396
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X: Using operation named: validateAssets
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X: Apple's web service operation input parameters:
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter Application = iTMSTransporter
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter BaseVersion = 1.9.0
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter CPUToken = 31c2acba-025c-47c6-9c36-2aefcfb19528/1499943082782
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter Files = [cf271f69e66f200cbd4dbfa22f757f5a.ipa, metadata.xml]
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter MetadataChecksum = 30148dfcc6592465945a254032ffb7d8
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter MetadataCompressed = (suppressed)
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter OSIdentifier = Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter PackageName = 1195876631.itmsp
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter PackageSize = 371015429
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-07-13T18:51:58+08:00
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 3.457826
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter Throttle = 100000
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter Transport = Signiant
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter TransporterArguments = -m upload -u 2990699839@qq.com -p **hidden value** -f /tmp/1195876631.itmsp -t Signiant -k 100000
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter Username = 2990699839@qq.com
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter Version = 1.9.3
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
+DEBUG [2017-07-13 18:51:58.14]: [Transporter]: INFO: id = 20170713185158-738
