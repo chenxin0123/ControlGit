@@ -16353,3 +16353,4 @@ I, [2017-07-13T18:51:18.254418 #76851]  INFO -- : Uploading app binary......
 Finish upload costy (build) to appStore and fir ./archive_ty_upload_fir/fir-cos_tiyan.png nhvqdvfboabobgia
 [Errno 2] No such file or directory: './archive_ty_upload_fir/fir-cos_tiyan.png'
 failed!
+DEBUG [2017-07-13 18:55:04.69]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 22262200/371014976, 6% completed
