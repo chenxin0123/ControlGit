@@ -16036,3 +16036,5 @@ Extracting information finish.
 File packing !
 package success!
 The zip file path = /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM.zip
+INFO [2017-07-13 18:51:02.16]: Running precheck before submitting to review, if you'd like to disable this check you can set run_precheck_before_submit to false
+INFO [2017-07-13 18:51:02.16]: Login to iTunes Connect (2990699839@qq.com)
