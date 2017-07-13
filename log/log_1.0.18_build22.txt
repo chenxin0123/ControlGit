@@ -16154,3 +16154,19 @@ DEBUG [2017-07-13 18:51:22.99]: [Transporter]: INFO: Starting media analysis of 
 DEBUG [2017-07-13 18:51:23.57]: [Transporter]: DEBUG: Handling asset: filename=cf271f69e66f200cbd4dbfa22f757f5a.ipa,uti=com.apple.ipa,role=source,describe=true
 DEBUG [2017-07-13 18:51:23.57]: [Transporter]: DEBUG: Using container type tool name and version: iOS App Describer:1.25
 DEBUG [2017-07-13 18:51:23.57]: [Transporter]: DEBUG: Using path: /tmp/1195876631.itmsp/cf271f69e66f200cbd4dbfa22f757f5a.ipa
+DEBUG [2017-07-13 18:51:38.98]: [Transporter]: DEBUG: Asset successfully described: com.apple.jingle.leghorn.software.AbstractSoftwareDescriber$1@6bc0ea7f
+DEBUG [2017-07-13 18:51:39.50]: [Transporter]: DBG-X: Deflated 1815445 bytes to 128069
+DEBUG [2017-07-13 18:51:39.50]: [Transporter]: INFO: Asset media analysis has completed
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X: Memory: [JVM] 730M free, 982M total, 982M max [System] (Physical) 503M free, 16384M total (Swap) 1219M free, 4096M total
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X: Using operation named: lookupTransportDiagnostic
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X: Apple's web service operation input parameters:
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter Application = iTMSTransporter
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter BaseVersion = 1.9.0
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter OSIdentifier = Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-07-13T18:51:39+08:00
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 0.944577
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter TransporterArguments = -m upload -u 2990699839@qq.com -p **hidden value** -f /tmp/1195876631.itmsp -t Signiant -k 100000
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter Username = 2990699839@qq.com
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter Version = 1.9.3
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
+DEBUG [2017-07-13 18:51:39.51]: [Transporter]: INFO: id = 20170713185139-694
