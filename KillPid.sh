@@ -8,10 +8,10 @@ echo 'PULL GIT'
 git pull
 
 # 2. Read config
-OLD_VERSION=$(/usr/libexec/PlistBuddy -c "print OLD_VERSION" ${CONFIG_PATH})
-OLD_BUILD=$(/usr/libexec/PlistBuddy -c "print OLD_BUILD" ${CONFIG_PATH})
-NEW_VERSION=$(/usr/libexec/PlistBuddy -c "print NEW_VERSION" ${CONFIG_PATH})
-NEW_BUILD=$(/usr/libexec/PlistBuddy -c "print NEW_BUILD" ${CONFIG_PATH})
+pid1=$(/usr/libexec/PlistBuddy -c "print pid1" ${CONFIG_PATH})
+pid2=$(/usr/libexec/PlistBuddy -c "print pid2" ${CONFIG_PATH})
+pid3=$(/usr/libexec/PlistBuddy -c "print pid3" ${CONFIG_PATH})
+pid4=$(/usr/libexec/PlistBuddy -c "print pid4" ${CONFIG_PATH})
 echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSION NEW_BUILD = $NEW_BUILD"
 
 # 3. Compare
