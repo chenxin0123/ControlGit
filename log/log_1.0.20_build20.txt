@@ -16038,3 +16038,40 @@ Extracting information finish.
 File packing !
 package success!
 The zip file path = /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM.zip
+I, [2017-07-13T16:04:20.959094 #22117]  INFO -- : Login succeed, previous user's email: interlyx@foxmail.com
+I, [2017-07-13T16:04:20.961744 #22117]  INFO -- : Login succeed, current  user's email: interlyx@foxmail.com
+I, [2017-07-13T16:04:20.961768 #22117]  INFO -- : 
+I, [2017-07-13T16:04:21.799887 #22134]  INFO -- : Login succeed, current user's email: interlyx@foxmail.com
+I, [2017-07-13T16:04:21.799948 #22134]  INFO -- : Login succeed, current user's name:  interlyx
+I, [2017-07-13T16:04:21.799965 #22134]  INFO -- : 
+INFO [2017-07-13 16:04:21.95]: Running precheck before submitting to review, if you'd like to disable this check you can set run_precheck_before_submit to false
+INFO [2017-07-13 16:04:21.95]: Login to iTunes Connect (2990699839@qq.com)
+Looking for iTunes Connect Team with ID 118426823
+I, [2017-07-13T16:04:22.763186 #22145]  INFO -- : Publishing app via interlyx<interlyx@foxmail.com>.......
+I, [2017-07-13T16:04:22.763252 #22145]  INFO -- : ✈ -------------------------------------------- ✈
+INFO [2017-07-13 16:04:29.01]: Login successful
+
++-----------------------------+------------------------------------------------+
+|                            [32mdeliver 2.45.0 Summary[0m                            |
++-----------------------------+------------------------------------------------+
+| ipa                         | ./archive_ty_upload_itc/cos_tiyan_appStore.ipa |
+| username                    | 2990699839@qq.com                              |
+| skip_screenshots            | true                                           |
+| skip_metadata               | true                                           |
+| skip_app_version_update     | true                                           |
+| app_identifier              | com.netdragon.heroesevolvedty                  |
+| screenshots_path            | ./screenshots                                  |
+| metadata_path               | ./metadata                                     |
+| app_version                 | 1.0.20                                         |
+| edit_live                   | false                                          |
+| platform                    | ios                                            |
+| skip_binary_upload          | false                                          |
+| force                       | false                                          |
+| submit_for_review           | false                                          |
+| automatic_release           | false                                          |
+| overwrite_screenshots       | false                                          |
+| run_precheck_before_submit  | true                                           |
+| precheck_default_rule_level | warn                                           |
++-----------------------------+------------------------------------------------+
+
+INFO [2017-07-13 16:04:32.83]: Uploading binary to iTunes Connect
