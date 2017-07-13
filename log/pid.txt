@@ -1,11 +1,11 @@
-pp               95947   0.0  0.0  2534308    388 s000  S     5:29上午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               96112   0.0  0.0  2534308    388 s000  S     5:29上午   0:00.00 watch -n 10 sh PrintProcess.sh
 pp               61261   0.0  0.0  2487204   1560 s000  S     6:14下午   0:00.92 watch -n 30 sh Push.sh
 pp               61260   0.0  0.0  2534308   1668 s000  S     6:14下午   0:02.37 watch -n 10 sh Pull.sh
 pp               61259   0.0  0.0  2534308   1784 s000  S     6:14下午   0:03.21 watch -n 10 sh PrintProcess.sh
 pp               61258   0.0  0.0  2534308   1668 s000  S     6:14下午   0:03.03 watch -n 10 sh KillPid.sh
 pp               61256   0.0  0.0  2517924   1680 s000  S     6:14下午   0:03.09 watch -n 10 sh ArchiveTest.sh
 pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.48 watch -n 10 sh PrintArchiveLog.sh
-pp               26233   0.0  0.0  2517924   2400   ??  S     4:17下午   0:07.97 watch -n 10 -d sh ArchiveTest.sh
+pp               26233   0.0  0.0  2517924   2400   ??  S     4:17下午   0:07.98 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    880   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    500   ??  Ss   一10上午   0:03.38 /usr/libexec/watchdogd
-pp               95950   0.0  0.0  2432804    836 s000  S     5:29上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               96115   0.0  0.0  2432804    836 s000  S     5:29上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
