@@ -1,4 +1,3 @@
-pp               57190   0.1  0.0  2433396   1140 s002  S+    5:57下午   0:00.00 sh ArchiveTest.sh
 pp               48206   0.0  0.0  2479012   2292 s004  S+    5:31下午   0:00.28 watch -n 10 sh KillPid.sh
 pp               48205   0.0  0.0  2433396   1100 s004  S+    5:31下午   0:00.00 sh /Volumes/G-Drive/ControlGit/CWatchKill.sh
 pp               46209   0.0  0.0  2479012   2312 s003  S+    5:26下午   0:00.32 watch -n 10 sh PrintArchiveLog.sh
@@ -12,6 +11,7 @@ pp               38187   0.0  0.0  2433396   1100 s002  S+    5:02下午   0:00.
 pp               26233   0.0  0.0  2488228   2308 s002  S     4:17下午   0:00.88 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    864   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    336   ??  Ss   一10上午   0:02.96 /usr/libexec/watchdogd
-pp               57197   0.0  0.0  2432804    836 s000  S+    5:57下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
-pp               57194   0.0  0.0  2479012    384 s000  S+    5:57下午   0:00.00 watch -n 10 sh PrintProcess.sh
-pp               57189   0.0  0.0  2480036    388 s002  S+    5:57下午   0:00.00 watch -n 10 sh ArchiveTest.sh
+pp               57237   0.0  0.0  2432804    836 s000  S+    5:57下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               57234   0.0  0.0  2479012    380 s000  S+    5:57下午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               57227   0.0  0.0  2434420   1152 s002  S     5:57下午   0:00.00 sh ArchiveTest.sh
+pp               57226   0.0  0.0  2488228    388 s002  S     5:57下午   0:00.00 watch -n 10 -d sh ArchiveTest.sh
