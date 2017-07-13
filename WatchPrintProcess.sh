@@ -1,1 +1,1 @@
-watch -n 10 sh PrintThread.sh
+watch -n 10 sh PrintProcess.sh
