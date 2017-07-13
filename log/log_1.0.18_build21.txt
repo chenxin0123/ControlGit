@@ -1,2 +1,7 @@
 ORIGIN_PATH = /Volumes/G-Drive/ControlGit
 PULL GIT
+OLD_VERSION = 1.0.18 OLD_BUILD = 20 NEW_VERSION = 1.0.18 NEW_BUILD = 21
+COMPARE
+build bigger
+CHECKOUT TARGET GIT
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
