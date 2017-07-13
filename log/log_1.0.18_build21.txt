@@ -5,3 +5,14 @@ COMPARE
 build bigger
 CHECKOUT TARGET GIT
 HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+config ini
+ipaver = 1.0.18.0; resver = 1.0.18.1
+config plist
+ARCHIVE
+Updating 'dep/Dolphin':
+At revision 1950.
+Updating 'dep/libcurl':
+At revision 1950.
+Updating 'dep/GeTui':
+At revision 1950.
