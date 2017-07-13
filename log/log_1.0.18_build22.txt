@@ -15899,3 +15899,62 @@ while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin
 warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/2JGQ5NFUHV7OJ/UIKit-2LM3EQU7VVY4O.pcm: No such file or directory
 while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin/Libs/IOS/GCloud.framework/GCloud(tnet.o):
 warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/3HTYVZODOG6R6/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
+
+LinkStoryboards
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module cos_tiyan --target-device iphone --target-device ipad --minimum-deployment-target 7.0 --output-format human-readable-text --link /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/LaunchScreen.storyboardc
+
+PBXCp /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cosext_tiyanext.appex /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/PlugIns/cosext_tiyanext.appex
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude *.tbd -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cosext_tiyanext.appex /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/PlugIns
+warning: skipping copy phase strip, binary is code signed: /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/cosext_tiyanext.appex/cosext_tiyanext
+
+ValidateEmbeddedBinary /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/PlugIns/cosext_tiyanext.appex
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-embeddedBinaryValidationUtility /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/PlugIns/cosext_tiyanext.appex -signing-cert 91E998EA1E67A3DC1E15B2820C4ECF81BEC0252B -info-plist-path /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Info.plist
+
+PBXCp thirdParty/ChuShou/ChuShouTVSDK.framework /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks/ChuShouTVSDK.framework
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude *.tbd -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -bitcode-strip all -bitcode-strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip -resolve-src-symlinks /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou/ChuShouTVSDK.framework /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou/ChuShouTVSDK.framework/ChuShouTVSDK -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks/ChuShouTVSDK.framework/ChuShouTVSDK
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks/ChuShouTVSDK.framework/ChuShouTVSDK -r -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks/ChuShouTVSDK.framework/ChuShouTVSDK
+
+ProcessProductPackaging "" /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/ChuShouTVSDK.framework.xcent
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "7677KJ265D.com.netdragon.heroesevolvedty";
+    "aps-environment" = production;
+    "beta-reports-active" = 1;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:s.mlinks.cc"
+    );
+    "com.apple.developer.team-identifier" = 7677KJ265D;
+    "get-task-allow" = 0;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/ChuShouTVSDK.framework.xcent
+
+CodeSign /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks/ChuShouTVSDK.framework
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    
+Signing Identity:     "iPhone Distribution: Fujian TQ Interactive Entertainment Co., Ltd. (7677KJ265D)"
+
+    /usr/bin/codesign --force --sign 91E998EA1E67A3DC1E15B2820C4ECF81BEC0252B --preserve-metadata=identifier,entitlements,flags --timestamp=none /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/Frameworks/ChuShouTVSDK.framework
+
+Strip /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/cos_tiyan
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/cos_tiyan
