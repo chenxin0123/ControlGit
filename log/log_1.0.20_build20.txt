@@ -16337,3 +16337,4 @@ DEBUG [2017-07-13 16:05:40.57]: [Transporter]: DBG-X:   parameter Success = true
 DEBUG [2017-07-13 16:06:03.93]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 7394400/369707316, 2% completed
 DEBUG [2017-07-13 16:06:25.75]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 14788800/369707316, 4% completed
 DEBUG [2017-07-13 16:06:37.57]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 18486000/369707316, 5% completed
+DEBUG [2017-07-13 16:06:49.56]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 22183200/369707316, 6% completed
