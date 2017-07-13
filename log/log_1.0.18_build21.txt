@@ -98,3 +98,19 @@ U    dep/engine_refios/Debug-iphoneos/libglsloptimizer.a
 U    dep/engine_refios/Debug-iphoneos/libvorbis.a
 U    dep/engine_refios/Debug-iphoneos/libBaseCode.a
 U    dep/engine_refios/Debug-iphoneos/libLuaScript.a
+Updated to revision 1950.
+system:Darwin
+./dep/Dolphin svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/Dolphin
+./dep/libcurl svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/libcurl
+./dep/GeTui svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/GeTui
+./dep/server svn path not changed,start update from: https://192.168.243.139/svn/S3CosDependServer/server/origin/version/test/latest
+./dep/engine_ref svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/s3engine/trunk/latest
+./dep/Bugly svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/Bugly
+./dep/GCloudVoice svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/GCloudVoice
+./dep/QASdk svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/QASdk
+./dep/crasheye svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/crasheye
+./dep/cssdk svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/cssdk
+./dep/XfSdk svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/XfSdk
+./dep/ShareSDK svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/ShareSDK
+./dep/serverios svn path not changed,start update from: https://192.168.243.139/svn/S3CosDependServer/serverios/origin/version/test/lastest
+./dep/engine_refios svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/s3engineios/trunk/lastest
