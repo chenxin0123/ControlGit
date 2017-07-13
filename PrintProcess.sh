@@ -1,1 +1,1 @@
-ps aux | grep WatchAr | grep -E "Archive|archive|uploadIpa" > log/pid.txt
+ps aux | grep -E "Archive|archive|uploadIpa" > log/pid.txt
