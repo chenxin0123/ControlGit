@@ -16365,3 +16365,4 @@ DEBUG [2017-07-13 18:56:57.97]: [Transporter]: INFO:      File: cf271f69e66f200c
 DEBUG [2017-07-13 18:57:08.86]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 63073600/371014976, 17% completed
 DEBUG [2017-07-13 18:57:20.27]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 66786600/371014976, 18% completed
 DEBUG [2017-07-13 18:57:31.57]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 70499600/371014976, 19% completed
+DEBUG [2017-07-13 18:57:42.83]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 74212600/371014976, 20% completed
