@@ -1,0 +1,2 @@
+ORIGIN_PATH = /Volumes/G-Drive/ControlGit
+PULL GIT
