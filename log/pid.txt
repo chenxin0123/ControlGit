@@ -1,4 +1,5 @@
-pp               76704   3.7  0.0  2444064   1744   ??  U     6:50下午   0:00.12 cp ../build/xcode6.0/cos/iosArchiveTY/cos_tiyan_appStore.ipa ./archive_ty_upload_itc/cos_tiyan_appStore.ipa
+pp               76706   2.8  0.0  2433824   1712   ??  U     6:50下午   0:00.23 cp ../build/xcode6.0/cos/iosArchiveTY/cos_tiyan_adHoc.ipa ./archive_ty_upload_fir/cos_tiyan_adHoc.ipa
+pp               76722   0.9  0.3  2547348  42704   ??  S     6:51下午   0:01.21 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby /usr/local/bin/fastlane deliver --ipa ./archive_ty_upload_itc/cos_tiyan_appStore.ipa -u 2990699839@qq.com --skip_screenshots --skip_metadata --skip_app_version_update --verbose
 pp               67699   0.0  0.0  2435444   1184   ??  S     6:33下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               67547   0.0  0.0  2438516   1244   ??  S     6:32下午   0:00.01 sh Archive.sh
 pp               61960   0.0  0.0  2488228   2484 s006  S+    6:17下午   0:00.27 watch -n 10 sh PrintArchiveLog.sh
@@ -12,9 +13,9 @@ pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.
 pp               26233   0.0  0.0  2489252   2320   ??  S     4:17下午   0:01.25 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    904   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    336   ??  Ss   一10上午   0:02.99 /usr/libexec/watchdogd
-pp               76710   0.0  0.0  2432804    836 s000  S     6:50下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               76825   0.0  0.0  2451236    876 s000  S     6:51下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
 pp               67541   0.0  0.0        0      0   ??  Z     6:32下午   0:00.00 (watch)
-pp               76707   0.0  0.0  2496420    388 s000  S     6:50下午   0:00.00 watch -n 10 sh PrintProcess.sh
-pp               76706   0.0  0.0  2433824   1712   ??  U     6:50下午   0:00.04 cp ../build/xcode6.0/cos/iosArchiveTY/cos_tiyan_adHoc.ipa ./archive_ty_upload_fir/cos_tiyan_adHoc.ipa
-pp               76688   0.0  0.0  2437492    724   ??  S     6:50下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
+pp               76822   0.0  0.0  2496420    388 s000  S     6:51下午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               76782   0.0  0.0  2487204    384 s000  S     6:51下午   0:00.00 watch -n 30 sh Push.sh
+pp               76688   0.0  0.0  2437492    732   ??  S     6:50下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               76687   0.0  0.0  2446708    732   ??  S     6:50下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
