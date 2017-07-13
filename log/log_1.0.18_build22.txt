@@ -16344,3 +16344,5 @@ DEBUG [2017-07-13 18:52:17.99]: [Transporter]: DBG-X:   parameter iTMSTransporte
 DEBUG [2017-07-13 18:52:17.99]: [Transporter]: INFO: id = 20170713185217-119
 DEBUG [2017-07-13 18:52:18.00]: [Transporter]: DBG-X: The status for the file, metadata.xml, is TRANSFERRED.
 DEBUG [2017-07-13 18:52:18.00]: [Transporter]: INFO: Package upload progress: 0% completed
+DEBUG [2017-07-13 18:52:18.53]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 18:52:18.53]: [Transporter]: DBG-X:   parameter Success = true
