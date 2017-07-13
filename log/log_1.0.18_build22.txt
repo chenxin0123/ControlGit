@@ -16355,3 +16355,4 @@ Finish upload costy (build) to appStore and fir ./archive_ty_upload_fir/fir-cos_
 failed!
 DEBUG [2017-07-13 18:55:04.69]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 22262200/371014976, 6% completed
 DEBUG [2017-07-13 18:55:15.67]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 25975200/371014976, 7% completed
+DEBUG [2017-07-13 18:55:39.40]: [Transporter]: INFO:      File: cf271f69e66f200cbd4dbfa22f757f5a.ipa 33401200/371014976, 9% completed
