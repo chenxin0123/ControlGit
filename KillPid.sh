@@ -13,6 +13,7 @@ echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSI
 
 if [ $pid1 -gt 0 ];then
 kill $pid1
+/usr/libexec/PlistBuddy -c "Set:OLD_VERSION $NEW_VERSION" ${CONFIG_PATH}
 fi
 
 if [ $pid2 -gt 0 ];then
