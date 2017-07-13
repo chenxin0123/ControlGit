@@ -16231,3 +16231,81 @@ DEBUG [2017-07-13 16:05:11.27]: [Transporter]: DBG-X:   parameter Username = 299
 DEBUG [2017-07-13 16:05:11.27]: [Transporter]: DBG-X:   parameter Version = 1.9.3
 DEBUG [2017-07-13 16:05:11.27]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
 DEBUG [2017-07-13 16:05:11.27]: [Transporter]: INFO: id = 20170713160511-333
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter SigniantLoggingLevel = INFO
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter WebDavFolderPath = /5/7677KJ265D/uploading
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter TransportHosts = [sgr603.apple.com]
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter ProviderName = 7677KJ265D
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter WebDavServerName = https://itmsdav.apple.com:443
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter Checksums = {cf271f69e66f200cbd4dbfa22f757f5a.ipa=3acc33a37aae65e43b31807cdcce8e4e}
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter MinimumFileSizeThresholdForCheckum = 104857600
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter SoftwareMediaDescriptionFormat = binary
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter CPUToken = 00f8bd28-059a-4479-97a3-1b3affd7a86f/1499933120051
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter AssetsToDescribe = [{UTI=com.apple.ipa, Role=source, ShouldDescribeAsset=true, Filename=cf271f69e66f200cbd4dbfa22f757f5a.ipa}]
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter FileSizes = {cf271f69e66f200cbd4dbfa22f757f5a.ipa=369707316}
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter ProviderNameForToken = 7677KJ265D
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter SoftwareMediaDescriptionThresholds = {product-archive={extensions=[pkg], size=100000000}, ccats={extensions=[pdf], size=100000000}, large-icon={extensions=[jpg, png, jpeg], size=100000000}, in-app-purchase-content={extensions=[pkg], size=100000000}, bundle={extensions=[zip, ipa], size=100000000}}
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter Success = true
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter TransportPort = 44001
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter FilesToUpload = [metadata.xml, cf271f69e66f200cbd4dbfa22f757f5a.ipa]
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter ResumeFlag = false
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter NewPackageName = 1195876631-20170713010520-750.itmsp
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter TransportUser = transporter
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X:   parameter TransportPath = sgr6_pod2/transporter/content/transporter/7677KJ265D
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X: Existing token found, cleaning up
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X: Unlocking token at path /Users/pp/.itmstransporter/UploadTokens/ppdeMac-Pro.local_7677KJ265D_1195876631.itmsp.token
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DBG-X: Releasing token file lock
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DEBUG: Using token file path /Users/pp/.itmstransporter/UploadTokens/ppdeMac-Pro.local_7677KJ265D_1195876631.itmsp.token
+DEBUG [2017-07-13 16:05:26.38]: [Transporter]: DEBUG: Attempting exclusive file lock on token file
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: DEBUG: Set token: 00f8bd28-059a-4479-97a3-1b3affd7a86f/1499933120051
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: INFO: The list of files requested for upload by Apple is: [metadata.xml, cf271f69e66f200cbd4dbfa22f757f5a.ipa].  These are the files that will be uploaded.
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: INFO: Done performing authentication.
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: INFO: The asset replacement verification check is disabled.
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: INFO: Checking the file size of the files: [cf271f69e66f200cbd4dbfa22f757f5a.ipa]
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: DBG-X:  Checking the size of file: cf271f69e66f200cbd4dbfa22f757f5a.ipa
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: INFO: Done checking the file sizes.
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: INFO: Checking the md5 checksum of the files: [cf271f69e66f200cbd4dbfa22f757f5a.ipa]
+DEBUG [2017-07-13 16:05:26.39]: [Transporter]: DBG-X:  Checking the MD5 checksum of file: cf271f69e66f200cbd4dbfa22f757f5a.ipa
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X: Using operation named: clientChecksumCompleted
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X: Apple's web service operation input parameters:
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter Application = iTMSTransporter
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter BaseVersion = 1.9.0
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter NewPackageName = 1195876631-20170713010520-750.itmsp
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter OSIdentifier = Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-07-13T16:05:27+08:00
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 15.115982
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter TransporterArguments = -m upload -u 2990699839@qq.com -p **hidden value** -f /tmp/1195876631.itmsp -t Signiant -k 100000
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter Username = 2990699839@qq.com
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter Version = 1.9.3
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
+DEBUG [2017-07-13 16:05:27.36]: [Transporter]: INFO: id = 20170713160527-294
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X:   parameter Success = true
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Done checking the md5 checksum.
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Preparing to upload package 1195876631.itmsp ...
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Determining which files should be uploaded ...
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DEBUG: Valid local files will be checked:
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DEBUG: Remote files uploaded:
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X: Examining working file: metadata.xml
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DEBUG: Adding file to be uploaded: metadata.xml
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X: Examining working file: cf271f69e66f200cbd4dbfa22f757f5a.ipa
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DEBUG: Adding file to be uploaded: cf271f69e66f200cbd4dbfa22f757f5a.ipa
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Finished determining which files should be uploaded.
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X: ITMSPackage: files to be uploaded:
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Starting to upload the package's files (1195876631.itmsp) ...
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DEBUG: Resetting sizes for progress logging
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Computing total size of files to upload ...
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X:   adding file for % complete logging: metadata.xml , size: 453
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DBG-X:   adding file for % complete logging: cf271f69e66f200cbd4dbfa22f757f5a.ipa , size: 369707316
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: DEBUG: Setting total size of files for upload to: 369707769
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Done computing total size of files to upload.
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Signiant TransferEngine build 10.6.0.59156
+DEBUG [2017-07-13 16:05:27.86]: [Transporter]: INFO: Using Signiant UDP transport
+DEBUG [2017-07-13 16:05:27.87]: [Transporter]: DBG-X: Setting the target rate to 15000001 bytes per second.
+DEBUG [2017-07-13 16:05:27.87]: [Transporter]: DBG-X: Setting the throttle to 12500000 bytes per second.
+DEBUG [2017-07-13 16:05:27.87]: [Transporter]: INFO: The Signiant transfer engine's status is DISCONNECTED
+DEBUG [2017-07-13 16:05:27.87]: [Transporter]: INFO: The Signiant transfer engine's status is CONNECTING
+DEBUG [2017-07-13 16:05:27.87]: [Transporter]: INFO: Processing URL list: mxwan://sgr604.apple.com:44001/
+DEBUG [2017-07-13 16:05:27.88]: [Transporter]: INFO: Trying UDP sgr604.apple.com/17.110.248.104:44001...
+DEBUG [2017-07-13 16:05:35.53]: [Transporter]: INFO: Connected to UDP sgr604.apple.com/17.110.248.104:44001
+DEBUG [2017-07-13 16:05:36.00]: [Transporter]: INFO: Authenticating
