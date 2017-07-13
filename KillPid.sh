@@ -10,19 +10,9 @@ pid4=$(/usr/libexec/PlistBuddy -c "print pid4" ${CONFIG_PATH})
 echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSION NEW_BUILD = $NEW_BUILD"
 
 # 3. Kill
-echo 'COMPARE'
-DO_BUILD=false
-if [[ $NEW_VERSION > $OLD_VERSION ]];then
-	echo 'version bigger'
-	DO_BUILD=true
-elif [[ $NEW_VERSION = $OLD_VERSION ]] && [ $NEW_BUILD -gt $OLD_BUILD ];then
-	echo 'build bigger'
-	DO_BUILD=true
-fi
-if [ "$DO_BUILD" = false ];then
-	echo 'No need to build'
-	exit
-fi
+
+if 
+kill $pid1
 
 # 4. Write control git
 /usr/libexec/PlistBuddy -c "Set:OLD_VERSION $NEW_VERSION" ${CONFIG_PATH}
