@@ -1,9 +1,5 @@
-pp               39442   0.1  0.0  2433396   1140 s002  S+    5:06下午   0:00.00 sh ArchiveTest.sh
 pp               38188   0.0  0.0  2479012   2296 s002  S+    5:02下午   0:00.04 watch -n 10 sh ArchiveTest.sh
 pp               38187   0.0  0.0  2433396   1100 s002  S+    5:02下午   0:00.00 sh /Volumes/G-Drive/ControlGit/CWatchArchive.sh
 pp               26233   0.0  0.0  2480036   2304 s002  S     4:17下午   0:00.42 watch -n 10 -d sh ArchiveTest.sh
 pp               18764   0.0  0.0  2433396   1100 s004  S+    3:50下午   0:00.00 sh ArchiveMonitor.sh
-pp               39453   0.0  0.0  2432804    828 s000  S+    5:06下午   0:00.00 grep -E Archive|archive|uploadIpa
-pp               39441   0.0  0.0  2479012    388 s002  S+    5:06下午   0:00.00 watch -n 10 sh ArchiveTest.sh
-pp               39435   0.0  0.0  2433396   1140 s002  S     5:06下午   0:00.00 sh ArchiveTest.sh
-pp               39434   0.0  0.0  2480036    388 s002  S     5:06下午   0:00.00 watch -n 10 -d sh ArchiveTest.sh
+pp               39510   0.0  0.0  2432804    828 s000  S+    5:06下午   0:00.00 grep -E Archive|archive|uploadIpa
