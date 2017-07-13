@@ -4,8 +4,8 @@ CONFIG_PATH="$ORIGIN_PATH/costy.plist"
 TARGET_PATH="$ORIGIN_PATH/../cos_ty"
 echo "ORIGIN_PATH = $ORIGIN_PATH"
 # 1. Pull control git
-echo 'PULL GIT'
-git pull
+#echo 'PULL GIT'
+#git pull
 
 # 2. Read config
 OLD_VERSION=$(/usr/libexec/PlistBuddy -c "print OLD_VERSION" ${CONFIG_PATH})
