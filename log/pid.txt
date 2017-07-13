@@ -1,15 +1,17 @@
-pp               63004   0.0  0.0  2479012    388 s000  S     6:21下午   0:00.00 watch -n 10 sh PrintProcess.sh
-pp               61960   0.0  0.0  2479012   1752 s006  S+    6:17下午   0:00.02 watch -n 10 sh PrintArchiveLog.sh
+pp               63137   0.0  0.0  2479012    396 s004  S+    6:21下午   0:00.00 watch -n 10 git pull
+pp               63109   0.0  0.0  2480036    384 s000  S     6:21下午   0:00.00 watch -n 10 sh Pull.sh
+pp               61960   0.0  0.0  2479012   1752 s006  S+    6:17下午   0:00.03 watch -n 10 sh PrintArchiveLog.sh
 pp               61959   0.0  0.0  2433396   1100 s006  S+    6:17下午   0:00.00 sh /Volumes/G-Drive/ControlGit_M/SWatchLog.sh
-pp               61944   0.0  0.0  2479012   2408 s004  S+    6:17下午   0:00.02 watch -n 10 git pull
+pp               61944   0.0  0.0  2479012   2408 s004  S+    6:17下午   0:00.03 watch -n 10 git pull
 pp               61943   0.0  0.0  2433396   1100 s004  S+    6:17下午   0:00.00 sh /Volumes/G-Drive/ControlGit_M/SWatchPull.sh
 pp               61261   0.0  0.0  2477988   1532 s000  S     6:14下午   0:00.01 watch -n 30 sh Push.sh
 pp               61260   0.0  0.0  2480036   1548 s000  S     6:14下午   0:00.02 watch -n 10 sh Pull.sh
-pp               61259   0.0  0.0  2479012   1568 s000  S     6:14下午   0:00.03 watch -n 10 sh PrintProcess.sh
+pp               61259   0.0  0.0  2479012   1568 s000  S     6:14下午   0:00.04 watch -n 10 sh PrintProcess.sh
 pp               61258   0.0  0.0  2479012   1548 s000  S     6:14下午   0:00.03 watch -n 10 sh KillPid.sh
 pp               61256   0.0  0.0  2479012   1568 s000  S     6:14下午   0:00.03 watch -n 10 sh ArchiveTest.sh
 pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.48 watch -n 10 sh PrintArchiveLog.sh
 pp               26233   0.0  0.0  2488228   2308   ??  S     4:17下午   0:01.13 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    864   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    336   ??  Ss   一10上午   0:02.98 /usr/libexec/watchdogd
-pp               63007   0.0  0.0  2432804    836 s000  S     6:21下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               63144   0.0  0.0  2432804    836 s000  S     6:21下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               63141   0.0  0.0  2479012    388 s000  S     6:21下午   0:00.00 watch -n 10 sh PrintProcess.sh
