@@ -52,3 +52,6 @@ Updating 'dep/engine_refios':
 U    dep/engine_refios/Release-iphoneos/libS3Engine.a
 U    dep/engine_refios/Release-iphoneos/libPresentation.a
 U    dep/engine_refios/Release-iphoneos/libGLES2Render.a
+U    dep/engine_refios/Release-iphoneos/libDynaform_action.a
+U    dep/engine_refios/Release-iphoneos/libogg.a
+U    dep/engine_refios/Release-iphoneos/libsquish.a
