@@ -11,7 +11,15 @@ echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSI
 
 # 3. Kill
 
-if 
+if [ $pid1 -gt 0 ];then
+echo 'build bigger'
+DO_BUILD=true
+fi
+if [ "$DO_BUILD" = false ];then
+echo 'No need to build'
+exit
+fi
+
 kill $pid1
 
 # 4. Write control git
