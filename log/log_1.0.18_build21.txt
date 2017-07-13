@@ -93,3 +93,7 @@ U    dep/engine_refios/Debug-iphoneos/libMath.a
 U    dep/engine_refios/Debug-iphoneos/libpcre.a
 U    dep/engine_refios/Debug-iphoneos/libGamePlay.a
 U    dep/engine_refios/Debug-iphoneos/libzlib.a
+U    dep/engine_refios/Debug-iphoneos/libDynaform_script.a
+U    dep/engine_refios/Debug-iphoneos/libglsloptimizer.a
+U    dep/engine_refios/Debug-iphoneos/libvorbis.a
+U    dep/engine_refios/Debug-iphoneos/libBaseCode.a
