@@ -80,3 +80,14 @@ U    dep/engine_refios/Debug-iphoneos/libGLES2Render.a
 U    dep/engine_refios/Debug-iphoneos/libDynaform_action.a
 U    dep/engine_refios/Debug-iphoneos/libogg.a
 U    dep/engine_refios/Debug-iphoneos/libsquish.a
+U    dep/engine_refios/Debug-iphoneos/libDynaform.a
+U    dep/engine_refios/Debug-iphoneos/liblua.a
+U    dep/engine_refios/Debug-iphoneos/libtheora.a
+U    dep/engine_refios/Debug-iphoneos/libFreeType.a
+U    dep/engine_refios/Debug-iphoneos/libzziplib.a
+U    dep/engine_refios/Debug-iphoneos/libFreeImage.a
+U    dep/engine_refios/Debug-iphoneos/libS3Animation.a
+U    dep/engine_refios/Debug-iphoneos/libBullet.a
+U    dep/engine_refios/Debug-iphoneos/lib7zlib.a
+U    dep/engine_refios/Debug-iphoneos/libMath.a
+U    dep/engine_refios/Debug-iphoneos/libpcre.a
