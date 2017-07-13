@@ -49,3 +49,4 @@ U    dep/serverios/version.ini
 U    dep/serverios/Debug/ios/libInstance.a
 Updated to revision 2156.
 Updating 'dep/engine_refios':
+U    dep/engine_refios/Release-iphoneos/libS3Engine.a
