@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>NEW_BUILD</key>
-	<integer>17</integer>
+	<integer>18</integer>
 	<key>NEW_VERSION</key>
 	<string>1.0.20</string>
 	<key>OLD_BUILD</key>
-	<string>17</string>
+	<string>18</string>
 	<key>OLD_VERSION</key>
 	<string>1.0.20</string>
 </dict>
