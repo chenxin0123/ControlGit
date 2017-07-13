@@ -16075,3 +16075,82 @@ INFO [2017-07-13 18:51:16.33]: [32mWrote XML data to '/tmp/1195876631.itmsp'[0
 INFO [2017-07-13 18:51:16.39]: Going to upload updated app to iTunes Connect
 INFO [2017-07-13 18:51:16.39]: [32mThis might take a few minutes. Please don't interrupt the script.[0m
 DEBUG [2017-07-13 18:51:16.46]: /Applications/Xcode.app/Contents/Applications/Application\ Loader.app/Contents/itms/java/bin/java -Djava.ext.dirs=/Applications/Xcode.app/Contents/Applications/Application\ Loader.app/Contents/itms/java/lib/ext -XX:NewSize=2m -Xms32m -Xmx1024m -Xms1024m -Djava.awt.headless=true -Dsun.net.http.retryPost=false -classpath /Applications/Xcode.app/Contents/Applications/Application\ Loader.app/Contents/itms/lib/itmstransporter-launcher.jar com.apple.transporter.Application -m upload -u 2990699839@qq.com -p YourPassword -f /tmp/1195876631.itmsp -t Signiant -k 100000 2>&1
+I, [2017-07-13T18:51:10.315176 #76851]  INFO -- : Publishing app via interlyx<interlyx@foxmail.com>.......
+I, [2017-07-13T18:51:10.315258 #76851]  INFO -- : ✈ -------------------------------------------- ✈
+I, [2017-07-13T18:51:17.578536 #76851]  INFO -- : Fetching com.netdragon.heroesevolvedty@fir.im uploading info......
+I, [2017-07-13T18:51:17.578599 #76851]  INFO -- : Uploading app: cos_tiyan-1.0.18(Build 22)
+I, [2017-07-13T18:51:17.799126 #76851]  INFO -- : Uploading app icon......
+I, [2017-07-13T18:51:17.799196 #76851]  INFO -- : Converting app's icon......
+DEBUG [2017-07-13 18:51:20.90]: [Transporter]: INFO: Transporter is skipping bundle update check: Already checked recently.
+DEBUG [2017-07-13 18:51:21.04]: [Transporter]: INFO: Logging configured successfully.
+DEBUG [2017-07-13 18:51:21.04]: [Transporter]: DEBUG: Attempting refresh of configuration data from https://contentdelivery.itunes.apple.com/transporter/Defaults.properties
+DEBUG [2017-07-13 18:51:21.23]: [Transporter]: DEBUG: Configuration refresh successful.
+DEBUG [2017-07-13 18:51:21.23]: [Transporter]: DEBUG: Saving configuration to local path: /Users/pp/.itmstransporter/Defaults.properties
+DEBUG [2017-07-13 18:51:21.23]: [Transporter]: INFO: iTMSTransporter : iTunes Store Transporter [1.9.3]
+DEBUG [2017-07-13 18:51:21.24]: [Transporter]: INFO: OS identifier: Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 18:51:21.24]: [Transporter]: INFO: Memory: [JVM] 843M free, 982M total, 982M max [System] (Physical) 406M free, 16384M total (Swap) 1219M free, 4096M total
+DEBUG [2017-07-13 18:51:21.24]: [Transporter]: INFO: Upload mode selected.
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: INFO: Examining the package at: /tmp/1195876631.itmsp
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: INFO: Ensuring that package has well formed metadata file...
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: DEBUG: Getting case-sensitive metadata xml filename...
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: INFO: Gathering the list of valid files from the package ...
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: DEBUG:   cf271f69e66f200cbd4dbfa22f757f5a.ipa will be verified by Apple's web service to determine if it is a valid file.
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: DEBUG:   metadata.xml will be verified by Apple's web service to determine if it is a valid file.
+DEBUG [2017-07-13 18:51:21.25]: [Transporter]: INFO: Finished gathering the list of valid files from the package.
+DEBUG [2017-07-13 18:51:21.26]: [Transporter]: DEBUG:   Case-sensitive metadata filename is: metadata.xml
+DEBUG [2017-07-13 18:51:21.30]: [Transporter]: INFO: Performing authentication of package 1195876631.itmsp ...
+DEBUG [2017-07-13 18:51:21.30]: [Transporter]: DBG-X: Memory: [JVM] 833M free, 982M total, 982M max [System] (Physical) 408M free, 16384M total (Swap) 1219M free, 4096M total
+DEBUG [2017-07-13 18:51:21.30]: [Transporter]: DBG-X: Memory: [JVM] 833M free, 982M total, 982M max [System] (Physical) 408M free, 16384M total (Swap) 1219M free, 4096M total
+DEBUG [2017-07-13 18:51:21.30]: [Transporter]: DBG-X: Using operation named: authenticateForSession
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X: Apple's web service operation input parameters:
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter Application = iTMSTransporter
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter BaseVersion = 1.9.0
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter OSIdentifier = Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter Password = **hidden value**
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-07-13T18:51:21+08:00
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 0.39441
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter TransporterArguments = -m upload -u 2990699839@qq.com -p **hidden value** -f /tmp/1195876631.itmsp -t Signiant -k 100000
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter Username = 2990699839@qq.com
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter Version = 1.9.3
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
+DEBUG [2017-07-13 18:51:21.31]: [Transporter]: INFO: id = 20170713185121-417
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter SessionId = COunDBIQ9LOQbfVmRd6/G/EG2f8tiA==
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter SharedSecret = **hidden value**
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter MultipartUploadsEnabled = true
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X: Deflated 453 bytes to 396
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X: Using operation named: validateMetadata
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X: Apple's web service operation input parameters:
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter Application = iTMSTransporter
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter BaseVersion = 1.9.0
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter Files = [cf271f69e66f200cbd4dbfa22f757f5a.ipa, metadata.xml]
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter Metadata = <?xml version="1.0" encoding="UTF-8"?>
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter MetadataChecksum = 30148dfcc6592465945a254032ffb7d8
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter MetadataCompressed = (suppressed)
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter OSIdentifier = Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter PackageName = 1195876631.itmsp
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter PackageSize = 371015429
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-07-13T18:51:22+08:00
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 0.737231
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter Throttle = 100000
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter TransporterArguments = -m upload -u 2990699839@qq.com -p **hidden value** -f /tmp/1195876631.itmsp -t Signiant -k 100000
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter Username = 2990699839@qq.com
+DEBUG [2017-07-13 18:51:22.04]: [Transporter]: DBG-X:   parameter Version = 1.9.3
+DEBUG [2017-07-13 18:51:22.05]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
+DEBUG [2017-07-13 18:51:22.05]: [Transporter]: INFO: id = 20170713185122-388
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter SoftwareMediaDescriptionThresholds = {product-archive={extensions=[pkg], size=100000000}, ccats={extensions=[pdf], size=100000000}, large-icon={extensions=[jpg, png, jpeg], size=100000000}, in-app-purchase-content={extensions=[pkg], size=100000000}, bundle={extensions=[zip, ipa], size=100000000}}
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter CPUToken = 31c2acba-025c-47c6-9c36-2aefcfb19528/1499943082782
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter SoftwareMediaDescriptionFormat = binary
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter AssetsToDescribe = [{UTI=com.apple.ipa, Role=source, ShouldDescribeAsset=true, Filename=cf271f69e66f200cbd4dbfa22f757f5a.ipa}]
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter FileSizes = {cf271f69e66f200cbd4dbfa22f757f5a.ipa=371014976}
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter Checksums = {cf271f69e66f200cbd4dbfa22f757f5a.ipa=33ff014640cb76dd25a11e3ccff9bc04}
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter Success = true
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter FilesToUpload = [metadata.xml, cf271f69e66f200cbd4dbfa22f757f5a.ipa]
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter MinimumFileSizeThresholdForCheckum = 104857600
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: DBG-X:   parameter ProviderNameForToken = 7677KJ265D
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: INFO: The list of files requested for upload by Apple is: [metadata.xml, cf271f69e66f200cbd4dbfa22f757f5a.ipa].  These are the files that will be uploaded.
+DEBUG [2017-07-13 18:51:22.99]: [Transporter]: INFO: Starting media analysis of assets
+DEBUG [2017-07-13 18:51:23.57]: [Transporter]: DEBUG: Handling asset: filename=cf271f69e66f200cbd4dbfa22f757f5a.ipa,uti=com.apple.ipa,role=source,describe=true
+DEBUG [2017-07-13 18:51:23.57]: [Transporter]: DEBUG: Using container type tool name and version: iOS App Describer:1.25
+DEBUG [2017-07-13 18:51:23.57]: [Transporter]: DEBUG: Using path: /tmp/1195876631.itmsp/cf271f69e66f200cbd4dbfa22f757f5a.ipa
