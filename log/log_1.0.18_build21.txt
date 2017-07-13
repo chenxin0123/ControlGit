@@ -66,3 +66,5 @@ U    dep/engine_refios/Release-iphoneos/libBullet.a
 U    dep/engine_refios/Release-iphoneos/lib7zlib.a
 U    dep/engine_refios/Release-iphoneos/libMath.a
 U    dep/engine_refios/Release-iphoneos/libpcre.a
+U    dep/engine_refios/Release-iphoneos/libGamePlay.a
+U    dep/engine_refios/Release-iphoneos/libzlib.a
