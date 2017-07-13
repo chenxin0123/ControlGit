@@ -1,22 +1,23 @@
-pp               68695   0.0  0.6  2843992 105256   ??  S     6:35下午   0:03.98 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project mycos.xcodeproj -scheme cos_tiyan -configuration Release -archivePath iosArchiveTY/cos_tiyan.xcarchive
+pp               70351  73.2  4.6  4582228 775296   ??  R     6:37下午   0:11.03 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/cos_tiyan -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cos_tiyan.app.dSYM
+pp               70501   0.0  0.0  2498468    392 s000  S     6:37下午   0:00.00 watch -n 10 sh Pull.sh
+pp               68695   0.0  0.7  2843172 109716   ??  S     6:35下午   0:04.28 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project mycos.xcodeproj -scheme cos_tiyan -configuration Release -archivePath iosArchiveTY/cos_tiyan.xcarchive
 pp               68693   0.0  0.0  2434420   1144   ??  S     6:35下午   0:00.00 sh archive_tiyan.sh
 pp               67699   0.0  0.0  2435444   1184   ??  S     6:33下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               67547   0.0  0.0  2438516   1244   ??  S     6:32下午   0:00.01 sh Archive.sh
-pp               61960   0.0  0.0  2488228   2472 s006  S+    6:17下午   0:00.16 watch -n 10 sh PrintArchiveLog.sh
+pp               61960   0.0  0.0  2488228   2484 s006  S+    6:17下午   0:00.16 watch -n 10 sh PrintArchiveLog.sh
 pp               61959   0.0  0.0  2433396   1100 s006  S+    6:17下午   0:00.00 sh /Volumes/G-Drive/ControlGit_M/SWatchLog.sh
 pp               61944   0.0  0.0  2488228   2428 s004  S+    6:17下午   0:00.12 watch -n 10 git pull
 pp               61943   0.0  0.0  2433396   1100 s004  S+    6:17下午   0:00.00 sh /Volumes/G-Drive/ControlGit_M/SWatchPull.sh
 pp               61261   0.0  0.0  2487204   1560 s000  S     6:14下午   0:00.03 watch -n 30 sh Push.sh
-pp               61260   0.0  0.0  2489252   1572 s000  S     6:14下午   0:00.07 watch -n 10 sh Pull.sh
+pp               61260   0.0  0.0  2498468   1600 s000  S     6:14下午   0:00.07 watch -n 10 sh Pull.sh
 pp               61259   0.0  0.0  2496420   1688 s000  S     6:14下午   0:00.11 watch -n 10 sh PrintProcess.sh
 pp               61258   0.0  0.0  2504612   1576 s000  S     6:14下午   0:00.10 watch -n 10 sh KillPid.sh
 pp               61256   0.0  0.0  2489252   1600 s000  S     6:14下午   0:00.10 watch -n 10 sh ArchiveTest.sh
 pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.48 watch -n 10 sh PrintArchiveLog.sh
 pp               26233   0.0  0.0  2489252   2320   ??  S     4:17下午   0:01.25 watch -n 10 -d sh ArchiveTest.sh
-pp               21043   0.0  0.0  2560236    864   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+pp               21043   0.0  0.0  2560236   1192   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    336   ??  Ss   一10上午   0:02.99 /usr/libexec/watchdogd
-pp               70240   0.0  0.0  2432804    836 s000  S     6:37下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               70518   0.0  0.0  2432804    836 s000  S     6:37下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
 pp               67541   0.0  0.0        0      0   ??  Z     6:32下午   0:00.00 (watch)
-pp               70237   0.0  0.0  2496420    388 s000  S     6:37下午   0:00.00 watch -n 10 sh PrintProcess.sh
-pp               70090   0.0  0.0  2462620   1264   ??  S     6:37下午   0:00.00 /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module cos_tiyan --output-partial-info-plist /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/WebViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/WebViewController.nib /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/viewcontrollers/WebViewController.xib
-pp               70002   0.0  0.0  2489252    384 s000  S     6:37下午   0:00.00 watch -n 10 sh Pull.sh
+pp               70515   0.0  0.0  2496420    388 s000  S     6:37下午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               70511   0.0  0.0  2488228    396 s004  S+    6:37下午   0:00.00 watch -n 10 git pull
