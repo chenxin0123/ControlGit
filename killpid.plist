@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>pid1</key>
-	<real>41789</real>
+	<integer>39066</integer>
 	<key>pid2</key>
 	<integer>0</integer>
 	<key>pid3</key>
