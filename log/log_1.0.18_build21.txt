@@ -97,3 +97,4 @@ U    dep/engine_refios/Debug-iphoneos/libDynaform_script.a
 U    dep/engine_refios/Debug-iphoneos/libglsloptimizer.a
 U    dep/engine_refios/Debug-iphoneos/libvorbis.a
 U    dep/engine_refios/Debug-iphoneos/libBaseCode.a
+U    dep/engine_refios/Debug-iphoneos/libLuaScript.a
