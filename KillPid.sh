@@ -1,7 +1,6 @@
 
 ORIGIN_PATH=$PWD
-CONFIG_PATH="$ORIGIN_PATH/costy.plist"
-TARGET_PATH="$ORIGIN_PATH/../cos_ty"
+CONFIG_PATH="$ORIGIN_PATH/killpid.plist"
 echo "ORIGIN_PATH = $ORIGIN_PATH"
 # 1. Pull control git
 echo 'PULL GIT'
