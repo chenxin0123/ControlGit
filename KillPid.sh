@@ -1,12 +1,8 @@
 
 ORIGIN_PATH=$PWD
 CONFIG_PATH="$ORIGIN_PATH/killpid.plist"
-echo "ORIGIN_PATH = $ORIGIN_PATH"
-# 1. Pull control git
-echo 'PULL GIT'
-git pull
 
-# 2. Read config
+# 1. Read config
 pid1=$(/usr/libexec/PlistBuddy -c "print pid1" ${CONFIG_PATH})
 pid2=$(/usr/libexec/PlistBuddy -c "print pid2" ${CONFIG_PATH})
 pid3=$(/usr/libexec/PlistBuddy -c "print pid3" ${CONFIG_PATH})
