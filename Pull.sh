@@ -1,2 +1,2 @@
 git fetch origin
-git reset --soft origin/master
+git rebase origin/master
