@@ -9,13 +9,24 @@ pid3=$(/usr/libexec/PlistBuddy -c "print pid3" ${CONFIG_PATH})
 pid4=$(/usr/libexec/PlistBuddy -c "print pid4" ${CONFIG_PATH})
 echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSION NEW_BUILD = $NEW_BUILD"
 
-# 3. Kill
+# 2. Kill
 
 if [ $pid1 -gt 0 ];then
 kill $pid1
 fi
 
-kill $pid1
+if [ $pid2 -gt 0 ];then
+kill $pid2
+fi
+
+if [ $pid3 -gt 0 ];then
+kill $pid3
+fi
+
+if [ $pid4 -gt 0 ];then
+kill $pid4
+fi
+
 
 # 4. Write control git
 /usr/libexec/PlistBuddy -c "Set:OLD_VERSION $NEW_VERSION" ${CONFIG_PATH}
