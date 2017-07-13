@@ -16170,3 +16170,6 @@ DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter Username = 299
 DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter Version = 1.9.3
 DEBUG [2017-07-13 18:51:39.51]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
 DEBUG [2017-07-13 18:51:39.51]: [Transporter]: INFO: id = 20170713185139-694
+DEBUG [2017-07-13 18:51:42.96]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 18:51:42.96]: [Transporter]: DBG-X:   parameter SigniantLoggingLevel = OFF
+DEBUG [2017-07-13 18:51:42.96]: [Transporter]: DBG-X:   parameter AsperaLoggingLevel = OFF
