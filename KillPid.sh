@@ -9,7 +9,7 @@ pid3=$(/usr/libexec/PlistBuddy -c "print pid3" ${CONFIG_PATH})
 pid4=$(/usr/libexec/PlistBuddy -c "print pid4" ${CONFIG_PATH})
 echo "OLD_VERSION = $OLD_VERSION OLD_BUILD = $OLD_BUILD NEW_VERSION = $NEW_VERSION NEW_BUILD = $NEW_BUILD"
 
-# 3. Compare
+# 3. Kill
 echo 'COMPARE'
 DO_BUILD=false
 if [[ $NEW_VERSION > $OLD_VERSION ]];then
