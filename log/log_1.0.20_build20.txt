@@ -8,3 +8,24 @@ PUSH GIT
  2 files changed, 5 insertions(+), 1 deletion(-)
 CHECKOUT TARGET GIT
 HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+config ini
+ipaver = 1.0.20.0; resver = 1.0.20.1
+config plist
+ARCHIVE
+Updating 'dep/Dolphin':
+At revision 1948.
+Updating 'dep/libcurl':
+At revision 1948.
+Updating 'dep/GeTui':
+At revision 1948.
+Updating 'dep/server':
+At revision 2153.
+Updating 'dep/engine_ref':
+At revision 1948.
+Updating 'dep/Bugly':
+At revision 1948.
+Updating 'dep/GCloudVoice':
+At revision 1948.
+Updating 'dep/QASdk':
+At revision 1948.
