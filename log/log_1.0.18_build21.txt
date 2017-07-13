@@ -22,3 +22,4 @@ U    dep/server/libserver/libs/release/android/armeabi-v7a/libbs.so
 U    dep/server/libserver/libs/release/win32/bs.pdb
 U    dep/server/libserver/libs/release/win32/bs.lib
 U    dep/server/libserver/libs/release/win32/bs.dll
+U    dep/server/libserver/libs/debug/android/armeabi-v7a/libbs.so
