@@ -1,5 +1,6 @@
-pp               76059 100.0  5.1  3333584 854048   ??  R     6:49下午   0:12.31 /Volumes/G-DRIVE/CrasheyeiOSSymbol_v3.0.4/dump_syms -a armv7 -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM
-pp               76055   1.1  0.3  8273688  44776   ??  S     6:49下午   0:00.48 /usr/bin/java -jar /Volumes/G-DRIVE/CrasheyeiOSSymbol_v3.0.4/CrasheyeIOSSymbol_v3.0.4.jar -disableUpload ./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM
+pp               76055  97.0  0.6  8309528 104048   ??  R     6:49下午   0:03.05 /usr/bin/java -jar /Volumes/G-DRIVE/CrasheyeiOSSymbol_v3.0.4/CrasheyeIOSSymbol_v3.0.4.jar -disableUpload ./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM
+pp               76059  42.3  5.9  3492412 984372   ??  S     6:49下午   0:20.97 /Volumes/G-DRIVE/CrasheyeiOSSymbol_v3.0.4/dump_syms -a armv7 -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM
+pp               76318   0.1  0.0  2496420    388 s000  S     6:50下午   0:00.00 watch -n 10 sh PrintProcess.sh
 pp               67699   0.0  0.0  2435444   1184   ??  S     6:33下午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               67547   0.0  0.0  2438516   1244   ??  S     6:32下午   0:00.01 sh Archive.sh
 pp               61960   0.0  0.0  2488228   2484 s006  S+    6:17下午   0:00.26 watch -n 10 sh PrintArchiveLog.sh
@@ -7,13 +8,11 @@ pp               61959   0.0  0.0  2433396   1100 s006  S+    6:17下午   0:00.
 pp               61261   0.0  0.0  2487204   1560 s000  S     6:14下午   0:00.05 watch -n 30 sh Push.sh
 pp               61260   0.0  0.0  2498468   1600 s000  S     6:14下午   0:00.11 watch -n 10 sh Pull.sh
 pp               61259   0.0  0.0  2496420   1688 s000  S     6:14下午   0:00.17 watch -n 10 sh PrintProcess.sh
-pp               61258   0.0  0.0  2504612   1576 s000  S     6:14下午   0:00.15 watch -n 10 sh KillPid.sh
+pp               61258   0.0  0.0  2504612   1576 s000  S     6:14下午   0:00.16 watch -n 10 sh KillPid.sh
 pp               61256   0.0  0.0  2492324   1636 s000  S     6:14下午   0:00.16 watch -n 10 sh ArchiveTest.sh
 pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.48 watch -n 10 sh PrintArchiveLog.sh
 pp               26233   0.0  0.0  2489252   2320   ??  S     4:17下午   0:01.25 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    904   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    336   ??  Ss   一10上午   0:02.99 /usr/libexec/watchdogd
-pp               76229   0.0  0.0  2432804    836 s000  S     6:50下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               76321   0.0  0.0  2432804    836 s000  S     6:50下午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
 pp               67541   0.0  0.0        0      0   ??  Z     6:32下午   0:00.00 (watch)
-pp               76226   0.0  0.0  2496420    392 s000  S     6:50下午   0:00.00 watch -n 10 sh PrintProcess.sh
-pp               76200   0.0  0.0  2498468    384 s000  S     6:50下午   0:00.00 watch -n 10 sh Pull.sh
