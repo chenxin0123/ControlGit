@@ -1,1 +1,1 @@
-watch -n 10 -d sh ArchiveTest.sh
+watch -n 10 sh ArchiveTest.sh
