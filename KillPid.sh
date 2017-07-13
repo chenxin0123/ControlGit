@@ -12,20 +12,20 @@ pid4=$(/usr/libexec/PlistBuddy -c "print pid4" ${CONFIG_PATH})
 
 if [ $pid1 -gt 0 ];then
 kill $pid1
-/usr/libexec/PlistBuddy -c "Set:pid1 $pid1" ${CONFIG_PATH}
+/usr/libexec/PlistBuddy -c "Set:pid1 0" ${CONFIG_PATH}
 fi
 
 if [ $pid2 -gt 0 ];then
 kill $pid2
-/usr/libexec/PlistBuddy -c "Set:pid2 $pid2" ${CONFIG_PATH}
+/usr/libexec/PlistBuddy -c "Set:pid2 0" ${CONFIG_PATH}
 fi
 
 if [ $pid3 -gt 0 ];then
 kill $pid3
-/usr/libexec/PlistBuddy -c "Set:pid3 $pid3" ${CONFIG_PATH}
+/usr/libexec/PlistBuddy -c "Set:pid3 0" ${CONFIG_PATH}
 fi
 
 if [ $pid4 -gt 0 ];then
 kill $pid4
-/usr/libexec/PlistBuddy -c "Set:pid4 $pid4" ${CONFIG_PATH}
+/usr/libexec/PlistBuddy -c "Set:pid4 0" ${CONFIG_PATH}
 fi
