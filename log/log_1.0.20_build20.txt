@@ -16309,3 +16309,28 @@ DEBUG [2017-07-13 16:05:27.87]: [Transporter]: INFO: Processing URL list: mxwan:
 DEBUG [2017-07-13 16:05:27.88]: [Transporter]: INFO: Trying UDP sgr604.apple.com/17.110.248.104:44001...
 DEBUG [2017-07-13 16:05:35.53]: [Transporter]: INFO: Connected to UDP sgr604.apple.com/17.110.248.104:44001
 DEBUG [2017-07-13 16:05:36.00]: [Transporter]: INFO: Authenticating
+DEBUG [2017-07-13 16:05:37.43]: [Transporter]: INFO: The Signiant transfer engine's status is AWAITING_DATA_STREAMS
+DEBUG [2017-07-13 16:05:37.43]: [Transporter]: INFO: Setting up data streams
+DEBUG [2017-07-13 16:05:39.53]: [Transporter]: INFO: The Signiant transfer engine's status is CONNECTED
+DEBUG [2017-07-13 16:05:39.53]: [Transporter]: INFO: Connected using WAN accelerator
+DEBUG [2017-07-13 16:05:39.99]: [Transporter]: INFO:      File: metadata.xml 453/453, 100% completed
+DEBUG [2017-07-13 16:05:39.99]: [Transporter]: DBG-X: Memory: [JVM] 800M free, 982M total, 982M max [System] (Physical) 326M free, 16384M total (Swap) 1076M free, 4096M total
+DEBUG [2017-07-13 16:05:39.99]: [Transporter]: DBG-X: Using operation named: assignTransportPodToUpload
+DEBUG [2017-07-13 16:05:39.99]: [Transporter]: DBG-X: Apple's web service operation input parameters:
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter Application = iTMSTransporter
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter BaseVersion = 1.9.0
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter CPUToken = 00f8bd28-059a-4479-97a3-1b3affd7a86f/1499933120051
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter NewPackageName = 1195876631-20170713010520-750.itmsp
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter OSIdentifier = Mac OS X 10.12.5 (x86_64); jvm=24.80-b07; jre=1.7.0-internal-root_2015_05_12_09_52-b00
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter Pod = McCarran Signiant 2
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-07-13T16:05:39+08:00
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter Transport = Signiant
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter TransporterArguments = -m upload -u 2990699839@qq.com -p **hidden value** -f /tmp/1195876631.itmsp -t Signiant -k 100000
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter Username = 2990699839@qq.com
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter Version = 1.9.3
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: DBG-X:   parameter iTMSTransporterMode = upload
+DEBUG [2017-07-13 16:05:40.00]: [Transporter]: INFO: id = 20170713160540-076
+DEBUG [2017-07-13 16:05:40.01]: [Transporter]: DBG-X: The status for the file, metadata.xml, is TRANSFERRED.
+DEBUG [2017-07-13 16:05:40.01]: [Transporter]: INFO: Package upload progress: 0% completed
+DEBUG [2017-07-13 16:05:40.57]: [Transporter]: DBG-X: Apple's web service operation return value:
+DEBUG [2017-07-13 16:05:40.57]: [Transporter]: DBG-X:   parameter Success = true
