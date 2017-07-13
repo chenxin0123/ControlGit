@@ -16029,3 +16029,7 @@ Touch /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdme
 Exported cos_tiyan.xcarchive to: /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/iosArchiveTY
 ** EXPORT SUCCEEDED **
 
+Exported cos_tiyan.xcarchive to: /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/iosArchiveTY
+** EXPORT SUCCEEDED **
+
+Extracting information....
