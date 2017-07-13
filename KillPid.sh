@@ -10,7 +10,7 @@ pid4=$(/usr/libexec/PlistBuddy -c "print pid4" ${CONFIG_PATH})
 
 # 2. Kill
 
-if [ $pid1 -gt 0];then
+if [ $pid1 -gt 0 ];then
 kill $pid1
 /usr/libexec/PlistBuddy -c "Set:pid1 0" ${CONFIG_PATH}
 fi
