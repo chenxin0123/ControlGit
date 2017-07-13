@@ -1,0 +1,38 @@
+ORIGIN_PATH = /Volumes/G-Drive/ControlGit
+OLD_VERSION = 1.0.18 OLD_BUILD = 21 NEW_VERSION = 1.0.18 NEW_BUILD = 22
+COMPARE
+build bigger
+CHECKOUT TARGET GIT
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+Your branch is up-to-date with 'origin/neiwang_newtiyan'.
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
+config ini
+ipaver = 1.0.18.0; resver = 1.0.18.1
+config plist
+ARCHIVE
+Updating 'dep/Dolphin':
+At revision 1950.
+Updating 'dep/libcurl':
+At revision 1950.
+Updating 'dep/GeTui':
+At revision 1950.
+Updating 'dep/server':
+At revision 2158.
+Updating 'dep/engine_ref':
+At revision 1950.
+Updating 'dep/Bugly':
+At revision 1950.
+Updating 'dep/GCloudVoice':
+At revision 1950.
+Updating 'dep/QASdk':
+At revision 1950.
+Updating 'dep/crasheye':
+At revision 1950.
+Updating 'dep/cssdk':
+At revision 1950.
+Updating 'dep/XfSdk':
+At revision 1950.
+Updating 'dep/ShareSDK':
+At revision 1950.
+Updating 'dep/serverios':
+At revision 2158.
