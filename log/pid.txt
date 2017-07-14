@@ -1,6 +1,4 @@
-pp               17566  86.3  0.9  2921144 159212 s000  R     9:30上午   0:00.87 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -exportArchive -archivePath iosArchiveTY/cos_tiyan.xcarchive -exportPath iosArchiveTY -exportOptionsPlist exportOptions_adHoc.plist
-pp               17561   0.0  0.0  2534308    388 s000  S     9:30上午   0:00.00 watch -n 10 sh Pull.sh
-pp               17506   0.0  0.0  2499492    400 s000  S     9:30上午   0:00.00 watch -n 30 sh Push.sh
+pp               17566 218.1  7.9  4077472 1320836 s000  R     9:30上午   0:19.13 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -exportArchive -archivePath iosArchiveTY/cos_tiyan.xcarchive -exportPath iosArchiveTY -exportOptionsPlist exportOptions_adHoc.plist
 pp               13683   0.0  0.0  2436468   1168 s000  S     9:23上午   0:00.00 sh archive_tiyan.sh
 pp               12726   0.0  0.0  2443636   1192 s000  S     9:21上午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               12473   0.0  0.0  2437492   1232 s000  S     9:21上午   0:00.01 sh Archive.sh
@@ -13,5 +11,5 @@ pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.
 pp               26233   0.0  0.0  2526116   2408   ??  S     4:17下午   0:10.56 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    880   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    500   ??  Ss   一10上午   0:03.53 /usr/libexec/watchdogd
-pp               17576   0.0  0.0  2432804    836 s000  S     9:30上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
-pp               17573   0.0  0.0  2534308    392 s000  S     9:30上午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               17665   0.0  0.0  2432804    700 s000  R     9:30上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               17662   0.0  0.0  2534308    388 s000  S     9:30上午   0:00.00 watch -n 10 sh PrintProcess.sh
