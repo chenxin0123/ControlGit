@@ -1,0 +1,29 @@
+INFO [2017-07-14 15:46:44.15]: Running precheck before submitting to review, if you'd like to disable this check you can set run_precheck_before_submit to false
+INFO [2017-07-14 15:46:44.15]: Login to iTunes Connect (2990699839@qq.com)
+Looking for iTunes Connect Team with ID 118426823
+INFO [2017-07-14 15:46:48.80]: Login successful
+
++-----------------------------+------------------------------------------------+
+|                            [32mdeliver 2.45.0 Summary[0m                            |
++-----------------------------+------------------------------------------------+
+| ipa                         | ./archive_ty_upload_itc/cos_tiyan_appStore.ipa |
+| username                    | 2990699839@qq.com                              |
+| skip_screenshots            | true                                           |
+| skip_metadata               | true                                           |
+| skip_app_version_update     | true                                           |
+| app_identifier              | com.netdragon.heroesevolvedty                  |
+| screenshots_path            | ./screenshots                                  |
+| metadata_path               | ./metadata                                     |
+| app_version                 | 1.0.18                                         |
+| edit_live                   | false                                          |
+| platform                    | ios                                            |
+| skip_binary_upload          | false                                          |
+| force                       | false                                          |
+| submit_for_review           | false                                          |
+| automatic_release           | false                                          |
+| overwrite_screenshots       | false                                          |
+| run_precheck_before_submit  | true                                           |
+| precheck_default_rule_level | warn                                           |
++-----------------------------+------------------------------------------------+
+
+INFO [2017-07-14 15:46:51.78]: Uploading binary to iTunes Connect

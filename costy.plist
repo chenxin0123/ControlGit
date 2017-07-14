@@ -10,5 +10,9 @@
 	<string>23</string>
 	<key>OLD_VERSION</key>
 	<string>1.0.18</string>
+	<key>RESEND_FIR</key>
+	<integer>0</integer>
+	<key>RESEND_ITC</key>
+	<integer>0</integer>
 </dict>
 </plist>
