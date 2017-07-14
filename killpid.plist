@@ -13,8 +13,8 @@
 	<key>pid4</key>
 	<integer>0</integer>
 	<key>pid5</key>
-	<string></string>
+	<integer>0</integer>
 	<key>pid6</key>
-	<string></string>
+	<integer>0</integer>
 </dict>
 </plist>
