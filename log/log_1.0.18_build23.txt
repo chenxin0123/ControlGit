@@ -4294,3 +4294,4 @@ Compressing  shader/wxobjectsky.fx
 Compressing  shader/wxobjectwater.fx
 
 Everything is Ok
+Createing nifs packres=>./cosgame_resource.ifs
