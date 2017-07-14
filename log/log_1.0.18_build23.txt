@@ -29,3 +29,7 @@ Updating 'dep/crasheye':
 At revision 1950.
 Updating 'dep/cssdk':
 At revision 1950.
+Updating 'dep/XfSdk':
+At revision 1950.
+Updating 'dep/ShareSDK':
+At revision 1950.
