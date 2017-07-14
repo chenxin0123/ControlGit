@@ -73,3 +73,5 @@ U    dep/serverios/release/ios/libserverbasecode.a
 U    dep/serverios/release/ios/libkeep_conn.a
 U    dep/serverios/release/ios/libServerBase.a
 U    dep/serverios/release/ios/libbs.a
+U    dep/serverios/version.ini
+U    dep/serverios/Debug/ios/libLP.a
