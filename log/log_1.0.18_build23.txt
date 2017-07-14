@@ -15832,3 +15832,34 @@ GenerateDSYMFile /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydh
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/cos_tiyan -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cos_tiyan.app.dSYM
 warning: (armv7) /Applications/Xcode 7.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a(arclite.o) unable to open object file: No such file or directory
 warning: (arm64) /Applications/Xcode 7.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a(arclite.o) unable to open object file: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(TVE.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/TVE-Prefix-geiwhroygibqfxdwxozuvujaamcn/TVE-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(presets.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/libmp3lame-Prefix-hdgyetezabhdxhdpcpnxyvopwzsb/libmp3lame-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(get_audio.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/83S2IQDJAHD0/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
+note: Linking a static library that was built with -gmodules, but the module cache was not found.  Redistributable static libraries should never be built with module debugging enabled.  The debug experience will be degraded due to incomplete debug information.
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(notch_2nd.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/6IWV4EOHAW5O/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(vbr.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/G6V4GDBIMSEL/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(mdct.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/N0CWCQABAMZJ/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(log2.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/1V4G97CZPXR4H/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(ITve.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/libinterface-Prefix-cjpslvukkcpiuvdnbfegxhrebvrh/libinterface-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(LowResample.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/libResample-Prefix-awkesknawlvpnbcxkrobfamalcih/libResample-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(fadeeffect.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/libAudioDsp-Prefix-awubdebtrnzrwrapdzhnfzdonyey/libAudioDsp-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(ThreadRender.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/libframework-Prefix-dggmudtldcugthenlfxkuhxaoozp/libframework-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/GCloudVoice/libs/ios/libGCloudVoice.a(vqe.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/com.apple.DeveloperTools/7.2.1-7C1002/Xcode/SharedPrecompiledHeaders/libVqe-Prefix-eodsjspljljwpdchdtaxvtmgsaew/libVqe-Prefix.pch.pch: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin/Libs/IOS/ABase.framework/ABase(UnretainedPointer.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/38F3ZNX2WAT62/Foundation-A3SOD99KJ0S9.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin/Libs/IOS/ABase.framework/ABase(UnretainedPointer.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/38F3ZNX2WAT62/ObjectiveC-2CD0WTQVXITO7.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin/Libs/IOS/ABase.framework/ABase(ABaseApplicationObserver.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/38F3ZNX2WAT62/UIKit-2LM3EQU7VVY4O.pcm: No such file or directory
