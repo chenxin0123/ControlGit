@@ -6,7 +6,7 @@ logpid=$(/usr/libexec/PlistBuddy -c "print logpid" ${CONFIG_PATH})
 
 # 2. Kill
 
-if [ $pid1 -gt 0 ];then
+if [ $logpid -gt 0 ];then
 kill $pid1
 /usr/libexec/PlistBuddy -c "Set:pid1 0" ${CONFIG_PATH}
 fi
