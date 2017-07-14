@@ -38,3 +38,11 @@ Updating 'dep/engine_ref':
 At revision 1950.
 Updating 'dep/Bugly':
 At revision 1950.
+Updating 'dep/GCloudVoice':
+At revision 1950.
+Updating 'dep/QASdk':
+At revision 1950.
+Updating 'dep/crasheye':
+At revision 1950.
+Updating 'dep/cssdk':
+At revision 1950.
