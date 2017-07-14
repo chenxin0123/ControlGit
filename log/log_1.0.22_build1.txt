@@ -46,3 +46,11 @@ Updating 'dep/crasheye':
 At revision 1950.
 Updating 'dep/cssdk':
 At revision 1950.
+Updating 'dep/XfSdk':
+At revision 1950.
+Updating 'dep/ShareSDK':
+At revision 1950.
+Updating 'dep/serverios':
+U    dep/serverios/release/ios/libLP.a
+U    dep/serverios/release/ios/libmcody.a
+U    dep/serverios/release/ios/libEntity.a
