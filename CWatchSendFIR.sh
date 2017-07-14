@@ -1,1 +1,1 @@
-watch -n 10 sh ResendFir.sh
+watch -n 10 sh SendFir.sh
