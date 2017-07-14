@@ -76,3 +76,4 @@ U    dep/serverios/release/ios/libbs.a
 U    dep/serverios/version.ini
 U    dep/serverios/Debug/ios/libLP.a
 U    dep/serverios/Debug/ios/libmcody.a
+U    dep/serverios/Debug/ios/libEntity.a
