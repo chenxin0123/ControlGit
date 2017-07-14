@@ -26,3 +26,4 @@ U    dep/server/libserver/libs/release/win32/bs.pdb
 U    dep/server/libserver/libs/release/win32/bs.lib
 U    dep/server/libserver/libs/release/win32/bs.dll
 U    dep/server/libserver/libs/debug/android/armeabi-v7a/libmcody.so
+U    dep/server/libserver/libs/debug/android/armeabi-v7a/libbs.so
