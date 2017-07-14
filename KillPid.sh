@@ -32,12 +32,12 @@ kill $pid4
 /usr/libexec/PlistBuddy -c "Set:pid4 0" ${CONFIG_PATH}
 fi
 
-if [ $pid4 -gt 0 ];then
-kill $pid4
-/usr/libexec/PlistBuddy -c "Set:pid4 0" ${CONFIG_PATH}
+if [ $pid5 -gt 0 ];then
+kill $pid5
+/usr/libexec/PlistBuddy -c "Set:pid5 0" ${CONFIG_PATH}
 fi
 
-if [ $pid4 -gt 0 ];then
-kill $pid4
-/usr/libexec/PlistBuddy -c "Set:pid4 0" ${CONFIG_PATH}
+if [ $pid6 -gt 0 ];then
+kill $pid6
+/usr/libexec/PlistBuddy -c "Set:pid6 0" ${CONFIG_PATH}
 fi
