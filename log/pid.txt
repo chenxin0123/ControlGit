@@ -1,17 +1,16 @@
-pp               15331  10.2  0.2  2695932  33464 s000  R     9:25上午   0:00.51 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/cos_tiyan -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cos_tiyan.app.dSYM
-pp               15266   0.0  0.0  2499492    384 s000  S     9:25上午   0:00.00 watch -n 30 sh Push.sh
-pp               13686   0.0  0.7  2845672 110532 s000  S     9:23上午   0:04.05 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project mycos.xcodeproj -scheme cos_tiyan -configuration Release -archivePath iosArchiveTY/cos_tiyan.xcarchive
+pp               15331  59.1  1.8  4515720 304616 s000  R     9:25上午   0:04.98 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app/cos_tiyan -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cos_tiyan.app.dSYM
+pp               13686   0.0  0.7  2844624 110508 s000  S     9:23上午   0:04.05 /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild archive -project mycos.xcodeproj -scheme cos_tiyan -configuration Release -archivePath iosArchiveTY/cos_tiyan.xcarchive
 pp               13683   0.0  0.0  2434420   1144 s000  S     9:23上午   0:00.00 sh archive_tiyan.sh
 pp               12726   0.0  0.0  2443636   1192 s000  S     9:21上午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               12473   0.0  0.0  2437492   1232 s000  S     9:21上午   0:00.01 sh Archive.sh
 pp               61261   0.0  0.0  2499492   1616 s000  S     6:14下午   0:01.25 watch -n 30 sh Push.sh
 pp               61260   0.0  0.0  2534308   1668 s000  S     6:14下午   0:03.24 watch -n 10 sh Pull.sh
 pp               61259   0.0  0.0  2534308   1812 s000  S     6:14下午   0:04.32 watch -n 10 sh PrintProcess.sh
-pp               61258   0.0  0.0  2534308   1668 s000  S     6:14下午   0:04.08 watch -n 10 sh KillPid.sh
+pp               61258   0.0  0.0  2534308   1668 s000  S     6:14下午   0:04.09 watch -n 10 sh KillPid.sh
 pp               61256   0.0  0.0  2517924   1680 s000  S     6:14下午   0:04.16 watch -n 10 sh ArchiveTest.sh
 pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.48 watch -n 10 sh PrintArchiveLog.sh
 pp               26233   0.0  0.0  2526116   2408   ??  S     4:17下午   0:10.51 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    880   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    500   ??  Ss   一10上午   0:03.52 /usr/libexec/watchdogd
-pp               15335   0.0  0.0  2432804    836 s000  S     9:25上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
-pp               15332   0.0  0.0  2534308    388 s000  S     9:25上午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               15416   0.0  0.0  2432804    836 s000  S     9:25上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
+pp               15413   0.0  0.0  2534308    392 s000  S     9:25上午   0:00.00 watch -n 10 sh PrintProcess.sh
