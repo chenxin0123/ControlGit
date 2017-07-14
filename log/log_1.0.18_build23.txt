@@ -15863,3 +15863,5 @@ while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin
 warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/38F3ZNX2WAT62/ObjectiveC-2CD0WTQVXITO7.pcm: No such file or directory
 while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin/Libs/IOS/ABase.framework/ABase(ABaseApplicationObserver.o):
 warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/38F3ZNX2WAT62/UIKit-2LM3EQU7VVY4O.pcm: No such file or directory
+while processing /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/Dolphin/Libs/IOS/GCloud.framework/GCloud(tnet.o):
+warning: /var/folders/0c/3nv480ms3x14_tc080t7v2xc0000gp/C/org.llvm.clang.apollo/ModuleCache/1DJPN45ZXTHZV/Darwin-MI6WZSG1PNOM.pcm: No such file or directory
