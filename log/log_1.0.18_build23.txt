@@ -16035,3 +16035,11 @@ Extracting information finish.
 File packing !
 package success!
 The zip file path = /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/./iosArchiveTY/cos_tiyan.xcarchive/dSYMs/cos_tiyan.app.dSYM.zip
+I, [2017-07-14T09:31:34.103611 #18309]  INFO -- : Login succeed, previous user's email: interlyx@foxmail.com
+I, [2017-07-14T09:31:34.107132 #18309]  INFO -- : Login succeed, current  user's email: interlyx@foxmail.com
+I, [2017-07-14T09:31:34.107160 #18309]  INFO -- : 
+I, [2017-07-14T09:31:34.910622 #18322]  INFO -- : Login succeed, current user's email: interlyx@foxmail.com
+I, [2017-07-14T09:31:34.910672 #18322]  INFO -- : Login succeed, current user's name:  interlyx
+I, [2017-07-14T09:31:34.910689 #18322]  INFO -- : 
+I, [2017-07-14T09:31:35.869571 #18329]  INFO -- : Publishing app via interlyx<interlyx@foxmail.com>.......
+I, [2017-07-14T09:31:35.869628 #18329]  INFO -- : ✈ -------------------------------------------- ✈

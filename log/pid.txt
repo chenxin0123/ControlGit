@@ -1,5 +1,5 @@
-pp               18233   4.2  0.0  2433824   1712 s000  R     9:31上午   0:00.14 cp ../build/xcode6.0/cos/iosArchiveTY/cos_tiyan_adHoc.ipa ./archive_ty_upload_fir/cos_tiyan_adHoc.ipa
-pp               18234   0.0  0.0  2534308    388 s000  S     9:31上午   0:00.00 watch -n 10 sh Pull.sh
+pp               18329  97.2  0.6  2536744 103508 s000  R     9:31上午   0:05.49 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby /usr/local/bin/fir publish -Q ./archive_ty_upload_fir/cos_tiyan_adHoc.ipa --verboses
+pp               18342   0.0  0.0  2534308    392 s000  S     9:31上午   0:00.00 watch -n 10 sh PrintProcess.sh
 pp               18230   0.0  0.0  2453876    720 s000  S     9:31上午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               12726   0.0  0.0  2444660   1204 s000  S     9:21上午   0:00.00 sh archiveIpa_ty.sh skipversionconfig
 pp               12473   0.0  0.0  2437492   1232 s000  S     9:21上午   0:00.01 sh Archive.sh
@@ -12,5 +12,4 @@ pp               46209   0.0  0.0  2479012   2312   ??  T     5:26下午   0:00.
 pp               26233   0.0  0.0  2526116   2408   ??  S     4:17下午   0:10.57 watch -n 10 -d sh ArchiveTest.sh
 pp               21043   0.0  0.0  2560236    880   ??  S    一11下午   0:00.06 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
 root               341   0.0  0.0  2478404    500   ??  Ss   一10上午   0:03.53 /usr/libexec/watchdogd
-pp               18247   0.0  0.0  2432804    836 s000  S     9:31上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
-pp               18244   0.0  0.0  2534308    388 s000  S     9:31上午   0:00.00 watch -n 10 sh PrintProcess.sh
+pp               18345   0.0  0.0  2432804    836 s000  S     9:31上午   0:00.00 grep -E Archive|archive|uploadIpa|watch|Watch
