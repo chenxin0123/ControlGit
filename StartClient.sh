@@ -6,9 +6,15 @@
 
 
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchArchive.sh" in selected tab of the front window'
+sleep 1
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchKill.sh" in selected tab of the front window'
+sleep 1
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchPrintProcess.sh" in selected tab of the front window'
+sleep 1
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchPull.sh" in selected tab of the front window'
+sleep 1
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchPush.sh" in selected tab of the front window'
+sleep 1
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchSendITC.sh" in selected tab of the front window'
+sleep 1
 osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "sh CWatchSendFIR.sh" in selected tab of the front window'
