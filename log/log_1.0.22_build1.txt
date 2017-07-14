@@ -32,3 +32,9 @@ U    dep/server/libserver/libs/debug/win32/mcody.lib
 U    dep/server/libserver/libs/debug/win32/mcody.dll
 U    dep/server/libserver/libs/debug/win32/bs.pdb
 U    dep/server/libserver/libs/debug/win32/bs.lib
+U    dep/server/libserver/libs/debug/win32/bs.dll
+Updated to revision 2169.
+Updating 'dep/engine_ref':
+At revision 1950.
+Updating 'dep/Bugly':
+At revision 1950.
