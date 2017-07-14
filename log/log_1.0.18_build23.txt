@@ -11975,3 +11975,624 @@ CompileC /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvuc
     export LANG=en_US.US-ASCII
     export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libc++ -fobjc-arc -gmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DFT2_BUILD_LIBRARY -DUSE_GCLOUD -DNDEBUG -DTIYAN_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=7.0 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-generated-files.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-own-target-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-all-target-headers.hmap -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-project-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/include -IthirdParty/ZXingObjC -IthirdParty/ZXingObjC/aztec/decoder -IthirdParty/ZXingObjC/aztec/detector -IthirdParty/ZXingObjC/aztec/encoder -IthirdParty/ZXingObjC/aztec -IthirdParty/ZXingObjC/client/result -IthirdParty/ZXingObjC/client -IthirdParty/ZXingObjC/common/reedsolomon -IthirdParty/ZXingObjC/common/detector -IthirdParty/ZXingObjC/common -IthirdParty/ZXingObjC/core -IthirdParty/ZXingObjC/datamatrix/decoder -IthirdParty/ZXingObjC/datamatrix/detector -IthirdParty/ZXingObjC/datamatrix/encoder -IthirdParty/ZXingObjC/datamatrix -IthirdParty/ZXingObjC/maxicode/decoder -IthirdParty/ZXingObjC/maxicode -IthirdParty/ZXingObjC/multi -IthirdParty/ZXingObjC/oned/rss/expanded/decoders -IthirdParty/ZXingObjC/oned/rss/expanded -IthirdParty/ZXingObjC/oned/rss -IthirdParty/ZXingObjC/oned -IthirdParty/ZXingObjC/pdf417/encoder -IthirdParty/ZXingObjC/pdf417/detector -IthirdParty/ZXingObjC/pdf417/decoder/ec -IthirdParty/ZXingObjC/pdf417/decoder -IthirdParty/ZXingObjC/pdf417 -IthirdParty/ZXingObjC/qrcode/decoder -IthirdParty/ZXingObjC/qrcode/detector -IthirdParty/ZXingObjC/qrcode/encoder -IthirdParty/ZXingObjC/qrcode/multi -IthirdParty/ZXingObjC/qrcode/multi/detector -IthirdParty/ZXingObjC/qrcode -IthirdParty/Masonry -IthirdParty/SDWebImage -IthirdParty/CHKeychain -IthirdParty/SSZipArchive -I../../../dep/crasheye/libs/ios -I../../../dep/engine_ref/include/Dependencies/include -I../../../dep/engine_ref/include/BaseCode -I../../../dep/engine_ref/include/Math -I../../../dep/engine_ref/include -I../../../dep/engine_ref/include/S3Engine -I../../../dep/engine_ref/include/GamePlay -I../../../dep/engine_ref/include/Bullet -I../../../dep/engine_ref/include/Dynaform -I../../../dep/engine_ref/include/LuaScript -I../../../dep/engine_ref/include/AStarMask -I../../../dep/engine_ref/include/Presentation -I../../../dep/engine_ref/include/Dependencies/include/lua -I../../../cos/utils -I../../../cos/Dolphin -I../../../cos -I../../../cos/thirdParty/libpomelo2/include -I../../.. -I../../../dep/libcurl/ios -I../../../dep/server/libmsg/include -I../../../dep/server/libserver/include/librts/interface -I../../../dep/server/libserver/include -I../../../cos/thirdParty/poclient/include -I../../../dep/GCloudVoice/include -I../../../dep/Dolphin/Include -I../../../dep/Dolphin/include/GCloud -I../../../dep/getui/libs/ios -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/AudioMessage -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/utils -IthirdParty/YYKit -IthirdParty/YYKit/Base -IthirdParty/YYKit/Base/Foundation -IthirdParty/YYKit/Base/Quartz -IthirdParty/YYKit/Base/UIKit -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/AFNetworking -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources/arm64 -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources -F/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty -F../../../dep/Dolphin/Libs/IOS -F../../../dep/Bugly/Libs/IOS -F../../../dep/sharesdk/ios/Support/Required -F../../../dep/sharesdk/ios/Support/PlatformSDK/QQSDK -F../../../dep/sharesdk/ios/Support/Optional -F../../../dep/sharesdk/ios -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/XfSdk/iOS -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/TencentOpenAPI -DNS_BLOCK_ASSERTIONS=1 -DNDEBUG -include /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/PrecompiledHeaders/cos-Prefix-cxkhfwawaoqucshaxrjadhbttdev/cos-Prefix.pch -MMD -MT dependencies -MF /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/PlatformIOSAppDelegate.d --serialize-diagnostics /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/PlatformIOSAppDelegate.dia -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/PlatformIOSAppDelegate.o
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:9:
+In file included from ../../../dep/engine_ref/include/BaseCode/BaseCode.h:18:
+../../../dep/engine_ref/include/BaseCode/Mutex.h:26:41: warning: binding dereferenced null pointer to reference has undefined behavior [-Wnull-dereference]
+        MutexScope(const MutexScope&) : _mutex(*(static_cast<Mutex*>(0))) { }
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:2:
+../../../dep/engine_ref/include/S3Engine/S3EngineCommon.h:5:10: warning: non-portable path to file '<assert.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <ASSERT.h>
+         ^~~~~~~~~~
+         <assert.h>
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:2:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3EngineCommon.h:10:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ext/hash_map:213:5: warning: Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings]
+#   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
+    ^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/Material.h:2:
+In file included from ../../../dep/engine_ref/include/S3Engine/Resource.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/MemoryDataStream.h:2:
+../../../dep/engine_ref/include/S3Engine/DataStream.h:80:49: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                while (chunkSize && (readCount = Read(tmpBuf, chunkSize)) != 0)
+                                                 ~~~~         ^~~~~~~~~
+../../../dep/engine_ref/include/S3Engine/DataStream.h:91:10: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+                                Skip((long)(pos + 1 - readCount));
+                                ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../dep/engine_ref/include/S3Engine/DataStream.h:121:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                return totalCount;
+                ~~~~~~ ^~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/Material.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/GpuProgram.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Texture.h:3:
+../../../dep/engine_ref/include/S3Engine/PixelFormat.h:343:20: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                Box(0, 0, 0, width, height, depth),
+                ~~~          ^~~~~
+../../../dep/engine_ref/include/S3Engine/PixelFormat.h:343:27: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                Box(0, 0, 0, width, height, depth),
+                ~~~                 ^~~~~~
+../../../dep/engine_ref/include/S3Engine/PixelFormat.h:343:35: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                Box(0, 0, 0, width, height, depth),
+                ~~~                         ^~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/Material.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/GpuProgram.h:5:
+../../../dep/engine_ref/include/S3Engine/VertexDeclaration.h:101:13: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'UINT32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        n = mOffset;
+          ~ ^~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+../../../dep/engine_ref/include/S3Engine/Material.h:312:58: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+         uint32 GetLodCount() const {return m_vecLODSubMaterial.size();}
+                                     ~~~~~~ ~~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+../../../dep/engine_ref/include/S3Engine/Node.h:253:49: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+        UINT                            GetComponentNumber() {return m_arrComp.size();}
+                                                              ~~~~~~ ~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+../../../dep/engine_ref/include/S3Engine/SceneManager.h:81:47: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32  GetVisibleNodeNum() {return m_vecNode.size();}
+                                     ~~~~~~ ~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:19:
+../../../dep/engine_ref/include/S3Engine/Entity.h:41:44: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumLods() const{return m_vecLOD.size();}
+                                  ~~~~~~ ~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:21:
+In file included from ../../../dep/engine_ref/include/S3Engine/Sound.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/SoundBuffer.h:3:
+../../../dep/engine_ref/include/S3Engine/SoundListener.h:43:66: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    uint32 GetNumChannelGroups() const{return m_mapChannelGroups.size();}
+                                       ~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:23:
+In file included from ../../../dep/engine_ref/include/S3Engine/Terrain.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/TerrainRenderable.h:6:
+../../../dep/engine_ref/include/S3Engine/TerrainMaterial.h:22:57: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+        UINT GetSubMaterialCount() const {return m_vecMaterial.size();}
+                                          ~~~~~~ ~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:23:
+In file included from ../../../dep/engine_ref/include/S3Engine/Terrain.h:6:
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:51:62: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetGrassRenderableNum() {return m_vecGrassRenderable.size();}
+                                        ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:63:54: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetLodNum() const {return m_vecLodRenderable.size();}
+                                  ~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:64:90: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetSubLodBodyNum(uint32 index) const {return m_vecLodRenderable[index].m_vecBody.size();}
+                                                     ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:65:94: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetSubLodBorderNum(uint32 index) const {return m_vecLodRenderable[index].m_vecBorder.size();}
+                                                       ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:23:
+../../../dep/engine_ref/include/S3Engine/Terrain.h:51:62: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumGrassSurfaces() const{return m_vecGrassSurface.size();}
+                                           ~~~~~~ ~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Terrain.h:54:55: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumTerrainTrunks() const{return m_vecTrunk.size();}
+                                           ~~~~~~ ~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:45:
+In file included from ../../../dep/engine_ref/include/S3Engine/Skin.h:5:
+../../../dep/engine_ref/include/S3Engine/AnimNode.h:115:60: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetFrameEventCount() const {return m_vecFrameEvent.size();}
+                                           ~~~~~~ ~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:45:
+../../../dep/engine_ref/include/S3Engine/Skin.h:110:47: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    uint32 GetNumLods() const{return m_vecLOD.size();}
+                              ~~~~~~ ~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:5:
+../../../dep/engine_ref/include/S3Engine/EffectSkinAnimation.h:28:76: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 ComputeDataSize() const {return m_gl.m_vecGLAnimationMatrix.size() * sizeof(Matrix3x4);}
+                                        ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:3:
+../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:27:27: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+                UINT nSubMesh = m_arrGL.size();
+                     ~~~~~~~~   ~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:44:38: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+        UINT GetAnimCount() {return m_arrGL.size();}
+                             ~~~~~~ ~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:87:42: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                rgUVData.size() * sizeof(uint16) * 2 +
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:4:
+../../../dep/engine_ref/include/S3Engine/EffectParticleMesh.h:126:35: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                rgExist.size() * sizeof(bool) +
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:5:
+../../../dep/engine_ref/include/S3Engine/EffectShapeMesh.h:44:7: warning: expression result unused [-Wunused-value]
+                                4 * sizeof(uint32);
+                                ~ ^ ~~~~~~~~~~~~~~
+../../../dep/engine_ref/include/S3Engine/EffectShapeMesh.h:42:43: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                m_lpMatrices.size() * sizeof(Matrix4) +
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+../../../dep/engine_ref/include/S3Engine/Effect.h:47:52: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumSkinLods() const{return m_vecLODSkin.size();}
+                                      ~~~~~~ ~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:51:60: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumParticleLods() const{return m_vecLODParticle.size();}
+                                          ~~~~~~ ~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:55:54: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumShapeLods() const{return m_vecLODShape.size();}
+                                       ~~~~~~ ~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:59:49: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumDecals() const{return m_vecDecals.size();}
+                                    ~~~~~~ ~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:62:64: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    uint32 GetNumRibbonTrails() const{return m_vecRibbonTrails.size();}
+                                      ~~~~~~ ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:6:
+../../../dep/engine_ref/include/S3Engine/Video/oggTimeSource.h:17:14: warning: implicit conversion loses integer precision: 'unsigned long' to 'TickType' (aka 'unsigned int') [-Wshorten-64-to-32]
+      return CStaticFunc::GetTime();
+      ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:7:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/oggTheoraDecoder.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/oggInputStream.h:6:
+In file included from ../../../dep/engine_ref/include/BaseCode/thread/threadRef.h:5:
+In file included from ../../../dep/engine_ref/include/BaseCode/thread/intrinsics.h:11:
+../../../dep/engine_ref/include/BaseCode/thread/intrinsics.gcc.h:70:14: warning: implicit conversion loses integer precision: 'long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+      return __sync_fetch_and_add( ( volatile long* ) &ref, 0 );
+      ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:8:
+../../../dep/engine_ref/include/S3Engine/Video/oggVorbisDecoder.h:83:63: warning: implicit conversion loses integer precision: 'const long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+      uint32 getSamplesPerSecond() const { return mVorbisInfo.rate; }
+                                           ~~~~~~ ~~~~~~~~~~~~^~~~
+../../../dep/engine_ref/include/S3Engine/Video/oggVorbisDecoder.h:92:86: warning: implicit conversion loses integer precision: 'long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+          uint32 getBytesPerSecond() const { return mVorbisInfo.channels * mVorbisInfo.rate * 2; }
+                                             ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+../../../dep/engine_ref/include/S3Engine/Video/oggVorbisDecoder.h:95:57: warning: implicit conversion loses integer precision: 'const long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+          uint32 getDecodeSamples() const { return mVorbisInfo.rate; }
+                                            ~~~~~~ ~~~~~~~~~~~~^~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:11:
+../../../dep/engine_ref/include/S3Engine/Video/oggSound.h:5:10: warning: non-portable path to file '"Mutex.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "mutex.h"
+         ^~~~~~~~~
+         "Mutex.h"
+../../../dep/engine_ref/include/S3Engine/Video/oggSound.h:6:10: warning: non-portable path to file '"Thread.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "thread.h"
+         ^~~~~~~~~~
+         "Thread.h"
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:11:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:146:
+../../../dep/engine_ref/include/S3Engine/AnimSequenceNode.h:34:55: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetSequenceCount() {return m_arrChildSequence.size();}
+                                   ~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/PlatformIOSAppDelegate.mm:13:
+In file included from ../../../dep/engine_ref/include/GamePlay/GamePlayCommon.h:31:
+In file included from ../../../dep/engine_ref/include/Bullet/btBulletDynamicsCommon.h:20:
+In file included from ../../../dep/engine_ref/include/Bullet/btBulletCollisionCommon.h:35:
+In file included from ../../../dep/engine_ref/include/Bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h:20:
+In file included from ../../../dep/engine_ref/include/Bullet/BulletCollision/CollisionShapes/btOptimizedBvh.h:21:
+../../../dep/engine_ref/include/Bullet/BulletCollision/BroadphaseCollision/btQuantizedBvh.h:82:46: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+                return (m_escapeIndexOrTriangleIndex&~((~0)<<(31-MAX_NUM_PARTS_IN_BITS)));
+                                                       ~~~~^
+45 warnings generated.
+
+CompileC /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NDSDK.o Module/NDSDKPlugin/S6SDK/NDSDK/NDSDK.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libc++ -fobjc-arc -gmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DFT2_BUILD_LIBRARY -DUSE_GCLOUD -DNDEBUG -DTIYAN_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=7.0 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-generated-files.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-own-target-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-all-target-headers.hmap -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-project-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/include -IthirdParty/ZXingObjC -IthirdParty/ZXingObjC/aztec/decoder -IthirdParty/ZXingObjC/aztec/detector -IthirdParty/ZXingObjC/aztec/encoder -IthirdParty/ZXingObjC/aztec -IthirdParty/ZXingObjC/client/result -IthirdParty/ZXingObjC/client -IthirdParty/ZXingObjC/common/reedsolomon -IthirdParty/ZXingObjC/common/detector -IthirdParty/ZXingObjC/common -IthirdParty/ZXingObjC/core -IthirdParty/ZXingObjC/datamatrix/decoder -IthirdParty/ZXingObjC/datamatrix/detector -IthirdParty/ZXingObjC/datamatrix/encoder -IthirdParty/ZXingObjC/datamatrix -IthirdParty/ZXingObjC/maxicode/decoder -IthirdParty/ZXingObjC/maxicode -IthirdParty/ZXingObjC/multi -IthirdParty/ZXingObjC/oned/rss/expanded/decoders -IthirdParty/ZXingObjC/oned/rss/expanded -IthirdParty/ZXingObjC/oned/rss -IthirdParty/ZXingObjC/oned -IthirdParty/ZXingObjC/pdf417/encoder -IthirdParty/ZXingObjC/pdf417/detector -IthirdParty/ZXingObjC/pdf417/decoder/ec -IthirdParty/ZXingObjC/pdf417/decoder -IthirdParty/ZXingObjC/pdf417 -IthirdParty/ZXingObjC/qrcode/decoder -IthirdParty/ZXingObjC/qrcode/detector -IthirdParty/ZXingObjC/qrcode/encoder -IthirdParty/ZXingObjC/qrcode/multi -IthirdParty/ZXingObjC/qrcode/multi/detector -IthirdParty/ZXingObjC/qrcode -IthirdParty/Masonry -IthirdParty/SDWebImage -IthirdParty/CHKeychain -IthirdParty/SSZipArchive -I../../../dep/crasheye/libs/ios -I../../../dep/engine_ref/include/Dependencies/include -I../../../dep/engine_ref/include/BaseCode -I../../../dep/engine_ref/include/Math -I../../../dep/engine_ref/include -I../../../dep/engine_ref/include/S3Engine -I../../../dep/engine_ref/include/GamePlay -I../../../dep/engine_ref/include/Bullet -I../../../dep/engine_ref/include/Dynaform -I../../../dep/engine_ref/include/LuaScript -I../../../dep/engine_ref/include/AStarMask -I../../../dep/engine_ref/include/Presentation -I../../../dep/engine_ref/include/Dependencies/include/lua -I../../../cos/utils -I../../../cos/Dolphin -I../../../cos -I../../../cos/thirdParty/libpomelo2/include -I../../.. -I../../../dep/libcurl/ios -I../../../dep/server/libmsg/include -I../../../dep/server/libserver/include/librts/interface -I../../../dep/server/libserver/include -I../../../cos/thirdParty/poclient/include -I../../../dep/GCloudVoice/include -I../../../dep/Dolphin/Include -I../../../dep/Dolphin/include/GCloud -I../../../dep/getui/libs/ios -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/AudioMessage -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/utils -IthirdParty/YYKit -IthirdParty/YYKit/Base -IthirdParty/YYKit/Base/Foundation -IthirdParty/YYKit/Base/Quartz -IthirdParty/YYKit/Base/UIKit -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/AFNetworking -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources/arm64 -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources -F/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty -F../../../dep/Dolphin/Libs/IOS -F../../../dep/Bugly/Libs/IOS -F../../../dep/sharesdk/ios/Support/Required -F../../../dep/sharesdk/ios/Support/PlatformSDK/QQSDK -F../../../dep/sharesdk/ios/Support/Optional -F../../../dep/sharesdk/ios -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/XfSdk/iOS -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/TencentOpenAPI -DNS_BLOCK_ASSERTIONS=1 -DNDEBUG -include /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/PrecompiledHeaders/cos-Prefix-cxkhfwawaoqucshaxrjadhbttdev/cos-Prefix.pch -MMD -MT dependencies -MF /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NDSDK.d --serialize-diagnostics /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NDSDK.dia -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDK.mm -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NDSDK.o
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDK.mm:10:
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:14:43: warning: pointer is missing a nullability type specifier (_Nonnull, _Nullable, or _Null_unspecified) [-Wnullability-completeness]
+- (void)didFinishLaunching:(UIApplication *)application WithOptions:(NSDictionary *)launchOptions;
+                                          ^
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:14:43: note: insert '_Nullable' if the pointer may be null
+- (void)didFinishLaunching:(UIApplication *)application WithOptions:(NSDictionary *)launchOptions;
+                                          ^
+                                           _Nullable
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:14:43: note: insert '_Nonnull' if the pointer should never be null
+- (void)didFinishLaunching:(UIApplication *)application WithOptions:(NSDictionary *)launchOptions;
+                                          ^
+                                           _Nonnull
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:20:49: warning: pointer is missing a nullability type specifier (_Nonnull, _Nullable, or _Null_unspecified) [-Wnullability-completeness]
+- (void)applicationWillTerminate:(UIApplication *)application;
+                                                ^
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:20:49: note: insert '_Nullable' if the pointer may be null
+- (void)applicationWillTerminate:(UIApplication *)application;
+                                                ^
+                                                 _Nullable
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:20:49: note: insert '_Nonnull' if the pointer should never be null
+- (void)applicationWillTerminate:(UIApplication *)application;
+                                                ^
+                                                 _Nonnull
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:22:46: warning: pointer is missing a nullability type specifier (_Nonnull, _Nullable, or _Null_unspecified) [-Wnullability-completeness]
+@property(nonatomic, assign)UIViewController *viewController;
+                                             ^
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:22:46: note: insert '_Nullable' if the pointer may be null
+@property(nonatomic, assign)UIViewController *viewController;
+                                             ^
+                                               _Nullable 
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDKApplicationListener.h:22:46: note: insert '_Nonnull' if the pointer should never be null
+@property(nonatomic, assign)UIViewController *viewController;
+                                             ^
+                                               _Nonnull 
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDK.mm:15:
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/NdComPlatform.framework/Headers/NdComPlatform.h:10:
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/NdComPlatform.framework/Headers/NdComPlatformBase.h:10:
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/NdComPlatform.framework/Headers/NdComPlatformError.h:38:9: warning: 'ND_COM_PLATFORM_ERROR_REGIST_FAIL' macro redefined [-Wmacro-redefined]
+#define ND_COM_PLATFORM_ERROR_REGIST_FAIL                                               -106                            /**< 注册失败 */
+        ^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/NDSDKPlugin/S6SDK/NDSDK/NDSDK.mm:14:
+/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/NdComPlatformInt_AppSt.framework/Headers/NdComPlatformIntAPI.h:37:9: note: previous definition is here
+#define ND_COM_PLATFORM_ERROR_REGIST_FAIL                                               -102                            /**< 注册失败 */
+        ^
+4 warnings generated.
+
+CompileC /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/ReplayManager.o managers/ReplayManager.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libc++ -fobjc-arc -gmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DFT2_BUILD_LIBRARY -DUSE_GCLOUD -DNDEBUG -DTIYAN_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=7.0 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-generated-files.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-own-target-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-all-target-headers.hmap -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-project-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/include -IthirdParty/ZXingObjC -IthirdParty/ZXingObjC/aztec/decoder -IthirdParty/ZXingObjC/aztec/detector -IthirdParty/ZXingObjC/aztec/encoder -IthirdParty/ZXingObjC/aztec -IthirdParty/ZXingObjC/client/result -IthirdParty/ZXingObjC/client -IthirdParty/ZXingObjC/common/reedsolomon -IthirdParty/ZXingObjC/common/detector -IthirdParty/ZXingObjC/common -IthirdParty/ZXingObjC/core -IthirdParty/ZXingObjC/datamatrix/decoder -IthirdParty/ZXingObjC/datamatrix/detector -IthirdParty/ZXingObjC/datamatrix/encoder -IthirdParty/ZXingObjC/datamatrix -IthirdParty/ZXingObjC/maxicode/decoder -IthirdParty/ZXingObjC/maxicode -IthirdParty/ZXingObjC/multi -IthirdParty/ZXingObjC/oned/rss/expanded/decoders -IthirdParty/ZXingObjC/oned/rss/expanded -IthirdParty/ZXingObjC/oned/rss -IthirdParty/ZXingObjC/oned -IthirdParty/ZXingObjC/pdf417/encoder -IthirdParty/ZXingObjC/pdf417/detector -IthirdParty/ZXingObjC/pdf417/decoder/ec -IthirdParty/ZXingObjC/pdf417/decoder -IthirdParty/ZXingObjC/pdf417 -IthirdParty/ZXingObjC/qrcode/decoder -IthirdParty/ZXingObjC/qrcode/detector -IthirdParty/ZXingObjC/qrcode/encoder -IthirdParty/ZXingObjC/qrcode/multi -IthirdParty/ZXingObjC/qrcode/multi/detector -IthirdParty/ZXingObjC/qrcode -IthirdParty/Masonry -IthirdParty/SDWebImage -IthirdParty/CHKeychain -IthirdParty/SSZipArchive -I../../../dep/crasheye/libs/ios -I../../../dep/engine_ref/include/Dependencies/include -I../../../dep/engine_ref/include/BaseCode -I../../../dep/engine_ref/include/Math -I../../../dep/engine_ref/include -I../../../dep/engine_ref/include/S3Engine -I../../../dep/engine_ref/include/GamePlay -I../../../dep/engine_ref/include/Bullet -I../../../dep/engine_ref/include/Dynaform -I../../../dep/engine_ref/include/LuaScript -I../../../dep/engine_ref/include/AStarMask -I../../../dep/engine_ref/include/Presentation -I../../../dep/engine_ref/include/Dependencies/include/lua -I../../../cos/utils -I../../../cos/Dolphin -I../../../cos -I../../../cos/thirdParty/libpomelo2/include -I../../.. -I../../../dep/libcurl/ios -I../../../dep/server/libmsg/include -I../../../dep/server/libserver/include/librts/interface -I../../../dep/server/libserver/include -I../../../cos/thirdParty/poclient/include -I../../../dep/GCloudVoice/include -I../../../dep/Dolphin/Include -I../../../dep/Dolphin/include/GCloud -I../../../dep/getui/libs/ios -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/AudioMessage -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/utils -IthirdParty/YYKit -IthirdParty/YYKit/Base -IthirdParty/YYKit/Base/Foundation -IthirdParty/YYKit/Base/Quartz -IthirdParty/YYKit/Base/UIKit -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/AFNetworking -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources/arm64 -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources -F/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty -F../../../dep/Dolphin/Libs/IOS -F../../../dep/Bugly/Libs/IOS -F../../../dep/sharesdk/ios/Support/Required -F../../../dep/sharesdk/ios/Support/PlatformSDK/QQSDK -F../../../dep/sharesdk/ios/Support/Optional -F../../../dep/sharesdk/ios -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/XfSdk/iOS -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/TencentOpenAPI -DNS_BLOCK_ASSERTIONS=1 -DNDEBUG -include /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/PrecompiledHeaders/cos-Prefix-cxkhfwawaoqucshaxrjadhbttdev/cos-Prefix.pch -MMD -MT dependencies -MF /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/ReplayManager.d --serialize-diagnostics /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/ReplayManager.dia -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/ReplayManager.o
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:2:
+../../../dep/engine_ref/include/S3Engine/S3EngineCommon.h:5:10: warning: non-portable path to file '<assert.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <ASSERT.h>
+         ^~~~~~~~~~
+         <assert.h>
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:2:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3EngineCommon.h:10:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ext/hash_map:213:5: warning: Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings]
+#   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
+    ^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:2:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3EngineCommon.h:17:
+In file included from ../../../dep/engine_ref/include/BaseCode/BaseCode.h:18:
+../../../dep/engine_ref/include/BaseCode/Mutex.h:26:41: warning: binding dereferenced null pointer to reference has undefined behavior [-Wnull-dereference]
+        MutexScope(const MutexScope&) : _mutex(*(static_cast<Mutex*>(0))) { }
+                                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/Material.h:2:
+In file included from ../../../dep/engine_ref/include/S3Engine/Resource.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/MemoryDataStream.h:2:
+../../../dep/engine_ref/include/S3Engine/DataStream.h:80:49: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                while (chunkSize && (readCount = Read(tmpBuf, chunkSize)) != 0)
+                                                 ~~~~         ^~~~~~~~~
+../../../dep/engine_ref/include/S3Engine/DataStream.h:91:10: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+                                Skip((long)(pos + 1 - readCount));
+                                ~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../dep/engine_ref/include/S3Engine/DataStream.h:121:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                return totalCount;
+                ~~~~~~ ^~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/Material.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/GpuProgram.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Texture.h:3:
+../../../dep/engine_ref/include/S3Engine/PixelFormat.h:343:20: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                Box(0, 0, 0, width, height, depth),
+                ~~~          ^~~~~
+../../../dep/engine_ref/include/S3Engine/PixelFormat.h:343:27: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                Box(0, 0, 0, width, height, depth),
+                ~~~                 ^~~~~~
+../../../dep/engine_ref/include/S3Engine/PixelFormat.h:343:35: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                Box(0, 0, 0, width, height, depth),
+                ~~~                         ^~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/Material.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/GpuProgram.h:5:
+../../../dep/engine_ref/include/S3Engine/VertexDeclaration.h:101:13: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'UINT32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        n = mOffset;
+          ~ ^~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Node.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Component.h:4:
+In file included from ../../../dep/engine_ref/include/S3Engine/Object.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/Serializer.h:6:
+../../../dep/engine_ref/include/S3Engine/Material.h:312:58: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+         uint32 GetLodCount() const {return m_vecLODSubMaterial.size();}
+                                     ~~~~~~ ~~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/SceneManager.h:8:
+../../../dep/engine_ref/include/S3Engine/Node.h:253:49: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+        UINT                            GetComponentNumber() {return m_arrComp.size();}
+                                                              ~~~~~~ ~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:6:
+../../../dep/engine_ref/include/S3Engine/SceneManager.h:81:47: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32  GetVisibleNodeNum() {return m_vecNode.size();}
+                                     ~~~~~~ ~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:19:
+../../../dep/engine_ref/include/S3Engine/Entity.h:41:44: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumLods() const{return m_vecLOD.size();}
+                                  ~~~~~~ ~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:21:
+In file included from ../../../dep/engine_ref/include/S3Engine/Sound.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/SoundBuffer.h:3:
+../../../dep/engine_ref/include/S3Engine/SoundListener.h:43:66: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    uint32 GetNumChannelGroups() const{return m_mapChannelGroups.size();}
+                                       ~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:23:
+In file included from ../../../dep/engine_ref/include/S3Engine/Terrain.h:6:
+In file included from ../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/TerrainRenderable.h:6:
+../../../dep/engine_ref/include/S3Engine/TerrainMaterial.h:22:57: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+        UINT GetSubMaterialCount() const {return m_vecMaterial.size();}
+                                          ~~~~~~ ~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:23:
+In file included from ../../../dep/engine_ref/include/S3Engine/Terrain.h:6:
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:51:62: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetGrassRenderableNum() {return m_vecGrassRenderable.size();}
+                                        ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:63:54: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetLodNum() const {return m_vecLodRenderable.size();}
+                                  ~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:64:90: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetSubLodBodyNum(uint32 index) const {return m_vecLodRenderable[index].m_vecBody.size();}
+                                                     ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/TerrainTrunk.h:65:94: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetSubLodBorderNum(uint32 index) const {return m_vecLodRenderable[index].m_vecBorder.size();}
+                                                       ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:23:
+../../../dep/engine_ref/include/S3Engine/Terrain.h:51:62: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumGrassSurfaces() const{return m_vecGrassSurface.size();}
+                                           ~~~~~~ ~~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Terrain.h:54:55: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumTerrainTrunks() const{return m_vecTrunk.size();}
+                                           ~~~~~~ ~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:45:
+In file included from ../../../dep/engine_ref/include/S3Engine/Skin.h:5:
+../../../dep/engine_ref/include/S3Engine/AnimNode.h:115:60: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetFrameEventCount() const {return m_vecFrameEvent.size();}
+                                           ~~~~~~ ~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:45:
+../../../dep/engine_ref/include/S3Engine/Skin.h:110:47: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    uint32 GetNumLods() const{return m_vecLOD.size();}
+                              ~~~~~~ ~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:5:
+../../../dep/engine_ref/include/S3Engine/EffectSkinAnimation.h:28:76: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 ComputeDataSize() const {return m_gl.m_vecGLAnimationMatrix.size() * sizeof(Matrix3x4);}
+                                        ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:3:
+../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:27:27: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+                UINT nSubMesh = m_arrGL.size();
+                     ~~~~~~~~   ~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:44:38: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'UINT' (aka 'unsigned int') [-Wshorten-64-to-32]
+        UINT GetAnimCount() {return m_arrGL.size();}
+                             ~~~~~~ ~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/EffectSkinMesh.h:87:42: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                rgUVData.size() * sizeof(uint16) * 2 +
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:4:
+../../../dep/engine_ref/include/S3Engine/EffectParticleMesh.h:126:35: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                rgExist.size() * sizeof(bool) +
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+In file included from ../../../dep/engine_ref/include/S3Engine/Effect.h:3:
+In file included from ../../../dep/engine_ref/include/S3Engine/EffectMesh.h:5:
+../../../dep/engine_ref/include/S3Engine/EffectShapeMesh.h:44:7: warning: expression result unused [-Wunused-value]
+                                4 * sizeof(uint32);
+                                ~ ^ ~~~~~~~~~~~~~~
+../../../dep/engine_ref/include/S3Engine/EffectShapeMesh.h:42:43: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                m_lpMatrices.size() * sizeof(Matrix4) +
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:46:
+../../../dep/engine_ref/include/S3Engine/Effect.h:47:52: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumSkinLods() const{return m_vecLODSkin.size();}
+                                      ~~~~~~ ~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:51:60: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumParticleLods() const{return m_vecLODParticle.size();}
+                                          ~~~~~~ ~~~~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:55:54: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumShapeLods() const{return m_vecLODShape.size();}
+                                       ~~~~~~ ~~~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:59:49: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetNumDecals() const{return m_vecDecals.size();}
+                                    ~~~~~~ ~~~~~~~~~~~~^~~~~~
+../../../dep/engine_ref/include/S3Engine/Effect.h:62:64: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    uint32 GetNumRibbonTrails() const{return m_vecRibbonTrails.size();}
+                                      ~~~~~~ ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:6:
+../../../dep/engine_ref/include/S3Engine/Video/oggTimeSource.h:17:14: warning: implicit conversion loses integer precision: 'unsigned long' to 'TickType' (aka 'unsigned int') [-Wshorten-64-to-32]
+      return CStaticFunc::GetTime();
+      ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:7:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/oggTheoraDecoder.h:8:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/oggInputStream.h:6:
+In file included from ../../../dep/engine_ref/include/BaseCode/thread/threadRef.h:5:
+In file included from ../../../dep/engine_ref/include/BaseCode/thread/intrinsics.h:11:
+../../../dep/engine_ref/include/BaseCode/thread/intrinsics.gcc.h:70:14: warning: implicit conversion loses integer precision: 'long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+      return __sync_fetch_and_add( ( volatile long* ) &ref, 0 );
+      ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:8:
+../../../dep/engine_ref/include/S3Engine/Video/oggVorbisDecoder.h:83:63: warning: implicit conversion loses integer precision: 'const long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+      uint32 getSamplesPerSecond() const { return mVorbisInfo.rate; }
+                                           ~~~~~~ ~~~~~~~~~~~~^~~~
+../../../dep/engine_ref/include/S3Engine/Video/oggVorbisDecoder.h:92:86: warning: implicit conversion loses integer precision: 'long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+          uint32 getBytesPerSecond() const { return mVorbisInfo.channels * mVorbisInfo.rate * 2; }
+                                             ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+../../../dep/engine_ref/include/S3Engine/Video/oggVorbisDecoder.h:95:57: warning: implicit conversion loses integer precision: 'const long' to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+          uint32 getDecodeSamples() const { return mVorbisInfo.rate; }
+                                            ~~~~~~ ~~~~~~~~~~~~^~~~
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:140:
+In file included from ../../../dep/engine_ref/include/S3Engine/Video/TheoraTexture.h:11:
+../../../dep/engine_ref/include/S3Engine/Video/oggSound.h:5:10: warning: non-portable path to file '"Mutex.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "mutex.h"
+         ^~~~~~~~~
+         "Mutex.h"
+../../../dep/engine_ref/include/S3Engine/Video/oggSound.h:6:10: warning: non-portable path to file '"Thread.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "thread.h"
+         ^~~~~~~~~~
+         "Thread.h"
+In file included from /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/ReplayManager.mm:3:
+In file included from ../../../dep/engine_ref/include/LuaScript/stdafx.h:15:
+In file included from ../../../dep/engine_ref/include/S3Engine/S3Engine.h:146:
+../../../dep/engine_ref/include/S3Engine/AnimSequenceNode.h:34:55: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        uint32 GetSequenceCount() {return m_arrChildSequence.size();}
+                                   ~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+44 warnings generated.
+
+CompileC /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NetManager.o managers/NetManager.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libc++ -fobjc-arc -gmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DFT2_BUILD_LIBRARY -DUSE_GCLOUD -DNDEBUG -DTIYAN_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=7.0 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-generated-files.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-own-target-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-all-target-headers.hmap -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-project-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/include -IthirdParty/ZXingObjC -IthirdParty/ZXingObjC/aztec/decoder -IthirdParty/ZXingObjC/aztec/detector -IthirdParty/ZXingObjC/aztec/encoder -IthirdParty/ZXingObjC/aztec -IthirdParty/ZXingObjC/client/result -IthirdParty/ZXingObjC/client -IthirdParty/ZXingObjC/common/reedsolomon -IthirdParty/ZXingObjC/common/detector -IthirdParty/ZXingObjC/common -IthirdParty/ZXingObjC/core -IthirdParty/ZXingObjC/datamatrix/decoder -IthirdParty/ZXingObjC/datamatrix/detector -IthirdParty/ZXingObjC/datamatrix/encoder -IthirdParty/ZXingObjC/datamatrix -IthirdParty/ZXingObjC/maxicode/decoder -IthirdParty/ZXingObjC/maxicode -IthirdParty/ZXingObjC/multi -IthirdParty/ZXingObjC/oned/rss/expanded/decoders -IthirdParty/ZXingObjC/oned/rss/expanded -IthirdParty/ZXingObjC/oned/rss -IthirdParty/ZXingObjC/oned -IthirdParty/ZXingObjC/pdf417/encoder -IthirdParty/ZXingObjC/pdf417/detector -IthirdParty/ZXingObjC/pdf417/decoder/ec -IthirdParty/ZXingObjC/pdf417/decoder -IthirdParty/ZXingObjC/pdf417 -IthirdParty/ZXingObjC/qrcode/decoder -IthirdParty/ZXingObjC/qrcode/detector -IthirdParty/ZXingObjC/qrcode/encoder -IthirdParty/ZXingObjC/qrcode/multi -IthirdParty/ZXingObjC/qrcode/multi/detector -IthirdParty/ZXingObjC/qrcode -IthirdParty/Masonry -IthirdParty/SDWebImage -IthirdParty/CHKeychain -IthirdParty/SSZipArchive -I../../../dep/crasheye/libs/ios -I../../../dep/engine_ref/include/Dependencies/include -I../../../dep/engine_ref/include/BaseCode -I../../../dep/engine_ref/include/Math -I../../../dep/engine_ref/include -I../../../dep/engine_ref/include/S3Engine -I../../../dep/engine_ref/include/GamePlay -I../../../dep/engine_ref/include/Bullet -I../../../dep/engine_ref/include/Dynaform -I../../../dep/engine_ref/include/LuaScript -I../../../dep/engine_ref/include/AStarMask -I../../../dep/engine_ref/include/Presentation -I../../../dep/engine_ref/include/Dependencies/include/lua -I../../../cos/utils -I../../../cos/Dolphin -I../../../cos -I../../../cos/thirdParty/libpomelo2/include -I../../.. -I../../../dep/libcurl/ios -I../../../dep/server/libmsg/include -I../../../dep/server/libserver/include/librts/interface -I../../../dep/server/libserver/include -I../../../cos/thirdParty/poclient/include -I../../../dep/GCloudVoice/include -I../../../dep/Dolphin/Include -I../../../dep/Dolphin/include/GCloud -I../../../dep/getui/libs/ios -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/AudioMessage -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/utils -IthirdParty/YYKit -IthirdParty/YYKit/Base -IthirdParty/YYKit/Base/Foundation -IthirdParty/YYKit/Base/Quartz -IthirdParty/YYKit/Base/UIKit -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/AFNetworking -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources/arm64 -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources -F/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty -F../../../dep/Dolphin/Libs/IOS -F../../../dep/Bugly/Libs/IOS -F../../../dep/sharesdk/ios/Support/Required -F../../../dep/sharesdk/ios/Support/PlatformSDK/QQSDK -F../../../dep/sharesdk/ios/Support/Optional -F../../../dep/sharesdk/ios -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/XfSdk/iOS -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/TencentOpenAPI -DNS_BLOCK_ASSERTIONS=1 -DNDEBUG -include /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/PrecompiledHeaders/cos-Prefix-cxkhfwawaoqucshaxrjadhbttdev/cos-Prefix.pch -MMD -MT dependencies -MF /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NetManager.d --serialize-diagnostics /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NetManager.dia -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/managers/NetManager.mm -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/NetManager.o
+
+CompileC /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/COSPhotoBrowser.o Module/ImagePicker/COSPhotoBrowser.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fobjc-arc -gmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFT2_BUILD_LIBRARY -DUSE_GCLOUD -DNDEBUG -DTIYAN_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=7.0 -g -fvisibility=hidden -Wno-sign-conversion -Wno-infinite-recursion -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-generated-files.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-own-target-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-all-target-headers.hmap -iquote /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan-project-headers.hmap -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/include -IthirdParty/ZXingObjC -IthirdParty/ZXingObjC/aztec/decoder -IthirdParty/ZXingObjC/aztec/detector -IthirdParty/ZXingObjC/aztec/encoder -IthirdParty/ZXingObjC/aztec -IthirdParty/ZXingObjC/client/result -IthirdParty/ZXingObjC/client -IthirdParty/ZXingObjC/common/reedsolomon -IthirdParty/ZXingObjC/common/detector -IthirdParty/ZXingObjC/common -IthirdParty/ZXingObjC/core -IthirdParty/ZXingObjC/datamatrix/decoder -IthirdParty/ZXingObjC/datamatrix/detector -IthirdParty/ZXingObjC/datamatrix/encoder -IthirdParty/ZXingObjC/datamatrix -IthirdParty/ZXingObjC/maxicode/decoder -IthirdParty/ZXingObjC/maxicode -IthirdParty/ZXingObjC/multi -IthirdParty/ZXingObjC/oned/rss/expanded/decoders -IthirdParty/ZXingObjC/oned/rss/expanded -IthirdParty/ZXingObjC/oned/rss -IthirdParty/ZXingObjC/oned -IthirdParty/ZXingObjC/pdf417/encoder -IthirdParty/ZXingObjC/pdf417/detector -IthirdParty/ZXingObjC/pdf417/decoder/ec -IthirdParty/ZXingObjC/pdf417/decoder -IthirdParty/ZXingObjC/pdf417 -IthirdParty/ZXingObjC/qrcode/decoder -IthirdParty/ZXingObjC/qrcode/detector -IthirdParty/ZXingObjC/qrcode/encoder -IthirdParty/ZXingObjC/qrcode/multi -IthirdParty/ZXingObjC/qrcode/multi/detector -IthirdParty/ZXingObjC/qrcode -IthirdParty/Masonry -IthirdParty/SDWebImage -IthirdParty/CHKeychain -IthirdParty/SSZipArchive -I../../../dep/crasheye/libs/ios -I../../../dep/engine_ref/include/Dependencies/include -I../../../dep/engine_ref/include/BaseCode -I../../../dep/engine_ref/include/Math -I../../../dep/engine_ref/include -I../../../dep/engine_ref/include/S3Engine -I../../../dep/engine_ref/include/GamePlay -I../../../dep/engine_ref/include/Bullet -I../../../dep/engine_ref/include/Dynaform -I../../../dep/engine_ref/include/LuaScript -I../../../dep/engine_ref/include/AStarMask -I../../../dep/engine_ref/include/Presentation -I../../../dep/engine_ref/include/Dependencies/include/lua -I../../../cos/utils -I../../../cos/Dolphin -I../../../cos -I../../../cos/thirdParty/libpomelo2/include -I../../.. -I../../../dep/libcurl/ios -I../../../dep/server/libmsg/include -I../../../dep/server/libserver/include/librts/interface -I../../../dep/server/libserver/include -I../../../cos/thirdParty/poclient/include -I../../../dep/GCloudVoice/include -I../../../dep/Dolphin/Include -I../../../dep/Dolphin/include/GCloud -I../../../dep/getui/libs/ios -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/AudioMessage -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../cos/utils -IthirdParty/YYKit -IthirdParty/YYKit/Base -IthirdParty/YYKit/Base/Foundation -IthirdParty/YYKit/Base/Quartz -IthirdParty/YYKit/Base/UIKit -I/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/AFNetworking -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources/arm64 -I/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/DerivedSources -F/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty -F../../../dep/Dolphin/Libs/IOS -F../../../dep/Bugly/Libs/IOS -F../../../dep/sharesdk/ios/Support/Required -F../../../dep/sharesdk/ios/Support/PlatformSDK/QQSDK -F../../../dep/sharesdk/ios/Support/Optional -F../../../dep/sharesdk/ios -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/XfSdk/iOS -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/TencentOpenAPI -DNS_BLOCK_ASSERTIONS=1 -DNDEBUG -include /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/PrecompiledHeaders/cos-Prefix-bcwiubxfbueaangciywdqnnvxaqp/cos-Prefix.pch -MMD -MT dependencies -MF /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/COSPhotoBrowser.d --serialize-diagnostics /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/COSPhotoBrowser.dia -c /Volumes/G-Drive/cos_ty/build/xcode6.0/cos/Module/ImagePicker/COSPhotoBrowser.m -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/COSPhotoBrowser.o
+
+Ld /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/cos_tiyan normal arm64
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export IPHONEOS_DEPLOYMENT_TARGET=7.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk -L/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -L../../../dep/engine_refios/Dependencies/include/fmod/ios -L../../../dep/libcurl/ios -L../../../dep/engine_ref/include/Dependencies/include/wwise/IOS/Release-iphoneos/lib -L../../../dep/getui/libs/ios -L../../../dep/sharesdk/ios/support/platformsdk/wechatsdk -L../../../dep/GCloudVoice/libs/ios -L../../../dep/engine_refios/Release-iphoneos -L../../../dep/serverios/Release/ios -L../../../dep/engine_refios/Dependencies/lib/ios -L../../../dep/crasheye/libs/ios -LBuildLib/Release-iphoneos -L/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/MagicWindow -L/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -L/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/UPAPay -L/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/Wechat -F/Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty -F../../../dep/Dolphin/Libs/IOS -F../../../dep/Bugly/Libs/IOS -F../../../dep/sharesdk/ios/Support/Required -F../../../dep/sharesdk/ios/Support/PlatformSDK/QQSDK -F../../../dep/sharesdk/ios/Support/Optional -F../../../dep/sharesdk/ios -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/../../../dep/XfSdk/iOS -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/ChuShou -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/AlipPay -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework -F/Volumes/G-Drive/cos_ty/build/xcode6.0/cos/thirdParty/NDSDKFramework/TencentOpenAPI -filelist /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/cos_tiyan.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=7.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/cos_tiyan_lto.o -Xlinker -final_output -Xlinker /Applications/cos_tiyan.app/cos_tiyan -stdlib=libc++ -fobjc-arc -fobjc-link-runtime -ObjC -licucore -framework PassKit -framework MessageUI -framework TDataMaster -lsqlite3.0 -framework WebKit -framework CoreFoundation -framework AdSupport -lGeTuiSdk-1.6.2.0-noidfa -framework UMMobClick -llibuv-ios -llibpomelo -framework Log -llibcos -lcrypto -lssl -lCrasheye2.5.0 -weak_framework CoreSpotlight -framework ChuShouTVSDK -framework CoreTelephony -lDynaform_action -lluajit -weak_framework ReplayKit -licucore -lAdapter -framework NDJSON -lAI -lAIBTree -lAStarMask -lbehaviac -lbs -lcommon_parser -lcompress_snappy -lCondition -lcore -lDamage -framework LinkedME_iOS -lDataModel -lDetour -lDetourCrowd -lDetourTileCache -lEntity -framework ChuShouTVSDK -lEntityEx -lEntry -lFogOfWar -linstance_snapshot -lInstance -ljsoncpp -lkeep_conn -framework NDUtility -lLP -lmcody -lmsg_order -lMsg -framework MOBFoundation -framework ShareSDKExtension -lnet_monitor -lnet_notifier -lprotobuf -lRecast -lreliable -lrts -lServerBase -lserverbasecode -lSkill -framework AssetsLibrary -lsnappy -framework ShareSDKConnector -lsnapshot -lsoci_core -lsoci_sqlite3 -lSQLiteLib -lState -lTalk -lWeChatSDK -framework Photos -ltqmsg_parser -lUtility -l7zlib -lBaseCode -lBullet -lDynaform -lFreeImage -lFreeType -lGamePlay -lGLES2Render -framework NdComPlatform -lglsloptimizer -framework ShareSDKUI -lLuaScript -framework TencentOpenAPI -lMath -logg -lpcre -lPresentation -lS3Animation -lS3Engine -lsquish -framework ShareSDK -ltheora -lvorbis -lzlib -lzziplib -lGCloudVoice -framework AMapLocationKit -framework AMapFoundationKit -framework CoreBluetooth -framework CoreLocation -framework Security -framework JavaScriptCore -lc++ -framework ABase -framework GCloud -lAkAACDecoder -lAkRecorderFX -framework ShareSDKConfigFile -lCommunicationCentral -framework NetEngine -lAkAudioInputSource -lAkCompressorFX -lAkConvolutionReverbFX -lAkDelayFX -lAkExpanderFX -lAkFlangerFX -lAkGainFX -lAkGuitarDistortionFX -lAkHarmonizerFX -lAkMatrixReverbFX -lAkMemoryMgr -lAkMeterFX -framework StoreKit -lAkMusicEngine -lAkParametricEQFX -lAkPeakLimiterFX -lAkPitchShifterFX -lAkRoomVerbFX -lAkSilenceSource -lAkSineSource -lAkSoundEngine -lAkSoundSeedImpactFX -lAkSoundSeedWind -lAkSoundSeedWoosh -lAkStereoDelayFX -framework XMLib -lAkStreamMgr -lAkSynthOne -lAkTimeStretchFX -lAkToneSource -lAkTremoloFX -lAkVorbisDecoder -framework NdComPlatformInt_AppSt -lMcDSPFutzBoxFX -lMcDSPLimiterFX -framework Encrypt -llibuv-ios -framework CoreText -framework ImageIO -framework CFNetwork -framework MobileCoreServices -lstdc++ -lsqlite3 -lstdc++.6.0.9 -lz.1.1.3 -lWeChatSDK -lz -framework MediaPlayer -framework QuartzCore -lMagicWindowSDK -framework AVFoundation -framework SystemConfiguration -framework CoreAudio -framework CoreGraphics -framework CoreMotion -framework Foundation -framework GLKit -lcurl -liconv.2.4.0 -framework OpenGLES -framework UIKit -Xlinker -dependency_info -Xlinker /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/cos_tiyan_dependency_info.dat -o /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/Objects-normal/arm64/cos_tiyan
