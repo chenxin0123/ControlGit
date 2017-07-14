@@ -19,3 +19,6 @@ U    dep/server/version.ini
 U    dep/server/foo.db
 U    dep/server/libserver/libs/release/android/armeabi-v7a/libmcody.so
 U    dep/server/libserver/libs/release/android/armeabi-v7a/libbs.so
+U    dep/server/libserver/libs/release/win32/mcody.pdb
+U    dep/server/libserver/libs/release/win32/mcody.lib
+U    dep/server/libserver/libs/release/win32/mcody.dll
