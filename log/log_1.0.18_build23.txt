@@ -16009,3 +16009,15 @@ Provisioning Profile: "Heroes Evolved tiyan Dis"
                       (30d5339d-96cf-4543-85a5-c2d9d3a51c9a)
 
     /usr/bin/codesign --force --sign 91E998EA1E67A3DC1E15B2820C4ECF81BEC0252B --entitlements /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/IntermediateBuildFilesPath/mycos.build/Release-iphoneos/cos_tiyan.build/cos_tiyan.app.xcent --timestamp=none /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app
+
+Validate /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/InstallationBuildProductsLocation/Applications/cos_tiyan.app -validate-for-store
+
+Touch /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cos_tiyan.app.dSYM
+    cd /Volumes/G-Drive/cos_ty/build/xcode6.0/cos
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pp/Downloads/cocos2d-x-3.15/templates:/Users/pp/Downloads:/Users/pp/Downloads/cocos2d-x-3.15/tools/cocos2d-console/bin:/usr/local/Cellar/distcc/3.2rc1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    /usr/bin/touch -c /Users/pp/Library/Developer/Xcode/DerivedData/mycos-hiaevfvlydhqbtbkvucdmegprdhr/Build/Intermediates/ArchiveIntermediates/cos_tiyan/BuildProductsPath/Release-iphoneos/cos_tiyan.app.dSYM
+
