@@ -3,3 +3,4 @@ OLD_VERSION = 1.0.22 OLD_BUILD = 0 NEW_VERSION = 1.0.22 NEW_BUILD = 1
 COMPARE
 build bigger
 CHECKOUT TARGET GIT
+HEAD is now at 60f50e2a7c 修改体验服版本号，修改切后台
