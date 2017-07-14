@@ -82,3 +82,4 @@ U    dep/serverios/Debug/ios/libinstance_snapshot.a
 U    dep/serverios/Debug/ios/libAI.a
 U    dep/serverios/Debug/ios/libEntry.a
 U    dep/serverios/Debug/ios/libInstance.a
+U    dep/serverios/Debug/ios/libEntityEx.a
