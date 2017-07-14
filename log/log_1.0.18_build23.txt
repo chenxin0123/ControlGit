@@ -33,3 +33,38 @@ Updating 'dep/XfSdk':
 At revision 1950.
 Updating 'dep/ShareSDK':
 At revision 1950.
+Updating 'dep/serverios':
+At revision 2161.
+Updating 'dep/engine_refios':
+At revision 1950.
+system:Darwin
+./dep/Dolphin svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/Dolphin
+./dep/libcurl svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/libcurl
+./dep/GeTui svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/GeTui
+./dep/server svn path not changed,start update from: https://192.168.243.139/svn/S3CosDependServer/server/origin/version/test/latest
+./dep/engine_ref svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/s3engine/trunk/latest
+./dep/Bugly svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/Bugly
+./dep/GCloudVoice svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/GCloudVoice
+./dep/QASdk svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/QASdk
+./dep/crasheye svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/crasheye
+./dep/cssdk svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/cssdk
+./dep/XfSdk svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/XfSdk
+./dep/ShareSDK svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/ShareSDK
+./dep/serverios svn path not changed,start update from: https://192.168.243.139/svn/S3CosDependServer/serverios/origin/version/test/lastest
+./dep/engine_refios svn path not changed,start update from: https://192.168.243.139/svn/S3CosDepend/s3engineios/trunk/lastest
+skip version config
+Build settings from command line:
+    CONFIGURATION_TEMP_DIR = build/xcodebuild-Release-iphoneos
+    SDKROOT = iphoneos10.3
+
+=== BUILD TARGET libuv-ios OF PROJECT libuv-ios WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET libpomelo OF PROJECT libpomelo WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET libcos OF PROJECT libcos WITH CONFIGURATION Release ===
+
+Check dependencies
