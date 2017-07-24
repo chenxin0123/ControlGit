@@ -62,5 +62,5 @@ echo 'ARCHIVE'
 cd $TARGET_PATH/ios_res
 sh archiveIpa_ty.sh skipversionconfig
 
-/usr/libexec/PlistBuddy -c "Set:RESEND_ITC 1" ${CONFIG_PATH}
-/usr/libexec/PlistBuddy -c "Set:RESEND_FIR 1" ${CONFIG_PATH}
+#/usr/libexec/PlistBuddy -c "Set:RESEND_ITC 1" ${CONFIG_PATH}
+#/usr/libexec/PlistBuddy -c "Set:RESEND_FIR 1" ${CONFIG_PATH}
