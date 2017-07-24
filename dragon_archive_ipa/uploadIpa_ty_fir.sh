@@ -7,3 +7,4 @@ cp ../build/xcode6.0/cos/iosArchiveTY/cos_tiyan_adHoc.ipa ./archive_ty_upload_fi
 fir login dd636ce2781617324e4ff4826346ebe7
 fir me
 fir publish -Q ./archive_ty_upload_fir/cos_tiyan_adHoc.ipa --verboses
+python SendEmail.py "版本上传成功" ./archive_ty_upload_fir/fir-cos_tiyan.png

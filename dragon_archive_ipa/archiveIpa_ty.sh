@@ -9,6 +9,6 @@ fi
 ./buildLibcosRelease.sh
 ./DistrbuteIOSTiyan.sh
 
-#./uploadIpa_ty_fir.sh > log_fir.txt
-#./uploadIpa_ty_itc.sh > log_itc.txt
+./uploadIpa_ty_fir.sh > log_fir.txt
+./uploadIpa_ty_itc.sh > log_itc.txt &
 
